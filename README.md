@@ -1,4 +1,3 @@
-# Network-Security-Groups-NSGs-and-Inspecting-Network-Protocols<p align="center">
 <p align="center">
 <img width="1000" alt="isolated" src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 </p>
@@ -23,8 +22,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Create Resources
 - Install Wireshark
-- Observe Differing Network Protocols
-
+- Observe Differing Network Protocols suh as:
+  - ICMP Traffic
+  - SSH Traffic
+  - DHCP Traffic
+  - DNS Traffic
+  - RDP Traffic
 
 ## Additional Resources
 
