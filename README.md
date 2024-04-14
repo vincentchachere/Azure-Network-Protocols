@@ -109,11 +109,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - The Virtual Network [VNET] created for this Virtual Machine is: `VM-vnet`
 
+- Click: `Review + Create`
+
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0ce9eed6-efda-4359-a53c-7e2d1895059b"><br>
 
+- *<ins>Review the information you typed in and once you verify it's all correct</ins>:*
 
-
+  - Click: `Create`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/5757c155-fc86-4cc0-aa29-10b699d26489"><br>
