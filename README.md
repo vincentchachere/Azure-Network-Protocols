@@ -52,7 +52,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ***
 
-### Create your Virtual Machines
+### Create your 1st Virtual Machine for this Lab
 
 - 
 
@@ -63,7 +63,28 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4ff4a264-ad0c-47f3-9cc3-0ce2877df31b"><br>
 <p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0ce9eed6-efda-4359-a53c-7e2d1895059b"><br>
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/5757c155-fc86-4cc0-aa29-10b699d26489"><br>
+
+***
+
+### Create your 2nd Virtual Machine for this Lab
+
+- 
+
+<p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/9101c495-f928-4aa1-8e9e-6008ce9e1a57"><br>
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/8ebb6247-7180-4317-8c5a-0f16e49a68e2"><br>
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/913067ed-149d-459a-a4b1-033ace987c37"><br>
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
 <p align="center">
 <img width="800" alt="isolated" src=""><br>
 <p align="center">
