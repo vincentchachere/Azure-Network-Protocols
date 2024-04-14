@@ -35,6 +35,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ## Actions and Observations
 
+<details>
+
+<summary> 
+  
+### Part 1: Install Resources
+  
+</summary> 
+
 ### 1. ) Create your Resource Group
 
 - Search: `Resource Group`
@@ -43,6 +51,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/8817b441-20c7-4402-96ba-93590df8d535"><br>
+
+***
 
 - Subscription: `Azure Subscription 1`
 
@@ -56,6 +66,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/5ff75287-da94-4e53-824e-7111f412c7a0"><br>
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/6b0736f2-dd6a-4ed3-9e5b-a72570a4a46e"><br>
+
+***
 
 - Click: `Create`
 
@@ -74,6 +86,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/9101c495-f928-4aa1-8e9e-6008ce9e1a57"><br>
+
+***
 
 - Subscription: `Azure Subscription 1`
 
@@ -107,12 +121,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4ff4a264-ad0c-47f3-9cc3-0ce2877df31b"><br>
 
+***
+
 - The Virtual Network [VNET] created for this Virtual Machine is: `VM-vnet`
 
 - Click: `Review + Create`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0ce9eed6-efda-4359-a53c-7e2d1895059b"><br>
+
+***
 
 - *<ins>Review the information you typed in and once you verify it's all correct</ins>:*
 
@@ -129,10 +147,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/9101c495-f928-4aa1-8e9e-6008ce9e1a57"><br>
+
+***
+
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/8ebb6247-7180-4317-8c5a-0f16e49a68e2"><br>
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/913067ed-149d-459a-a4b1-033ace987c37"><br>
+
+***
+
 <p align="center">
 <img width="800" alt="isolated" src=""><br>
 <p align="center">
@@ -229,6 +253,51 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ***
 
+</details>
+
+<details>
+
+<summary>
+
+### Part 2: Install Wireshark
+
+</summary>
+
+### 
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+### 
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+### 
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+</details>
+
+<details>
+
+<summary>
+
+### Part 3: Observe Differing Network Protocols
+
+</summary>
+
 ### 
 
 - 
@@ -254,4 +323,4 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src=""><br>
 
-***
+</details>
