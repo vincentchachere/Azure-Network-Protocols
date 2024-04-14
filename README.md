@@ -87,14 +87,27 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Security Type: `Standard`
 
-- Image: 
+- Image: `Windows 10 Pro, version 22H2 - x64 Gen2`
+
+- (Disk) Size: `Standard LD45_v3 - 4 vcpus, 16 GiB memory ($140.16/month)`
+
+- User: `labuser`
+- Password: *Something You Can Easily Remember`
+
+- Select Inbound Ports: `RDP (3389)
+
+- Check: `Licensing Box`
+
+- *<ins>When you're done typing in all the information</ins>:*
+
+  - Go To: `Networking` Tab (So that you can see what Virtual Network [VNET] the VM creates, which you will need to know for when you create VM2 in the next step)
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/81279c8d-be5a-4e55-a046-9c197e84dbf4"><br>
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4ff4a264-ad0c-47f3-9cc3-0ce2877df31b"><br>
 
-
+- The Virtual Network [VNET] created for this Virtual Machine is: `VM-vnet`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0ce9eed6-efda-4359-a53c-7e2d1895059b"><br>
