@@ -216,10 +216,14 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/2e2b2438-0332-42ad-a731-77d8aa2c548c"><br>
 
+***
+
 - Select: `Add PC`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/6b95ec8d-afc4-4365-b799-f4326250fdd5"><br>
+
+***
 
 - Paste: `VM1's Public IP Address`
 
@@ -228,12 +232,16 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/fc7c41f6-4158-4865-97bc-5e20626a66f6"><br>
 
+***
+
 - Double-Click: `VM1's Remote Desktop Account` *(The Blue Rectangle)*
 
 - Select: `Connect`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/6c46f335-7a53-47b6-82a5-a4c6b7e8a696"><br>
+
+***
 
 - User: `labuser`
 
@@ -244,10 +252,14 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/64e9e366-716c-4076-ae91-40e59fd2cba4"><br>
 
+***
+
 - Select: `Continue`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/47f34c0c-8497-4e91-b64c-3c90d5bb41de"><br>
+
+***
 
 - Uncheck: `All the Boxes`
 
@@ -255,6 +267,13 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/d9869250-3e6c-4780-83dd-bef4993b40d6"><br>
+
+- Now we are inside the Virtual Machine (VM1)!
+
+- Continue to Part 2 of this lab, which is Installing Wireshark inside VM1.
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
 
 ***
 
