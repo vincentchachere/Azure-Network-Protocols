@@ -435,12 +435,19 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 </summary>
 
-### 
+### 6. ) First we will filter for ICMP traffic only
 
-- 
+Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed with traffic, when you haven't even begun doing anything yet. This is normal, since there is so much being done in the background.
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0c789160-acd6-4157-906f-721689cfebab"><br>
+
+- Type in: `icmp`
+
+- Press: `Enter`
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4d18d8f0-f9fe-403e-bae1-71815cbfeff8"><br>
 
 ***
 
