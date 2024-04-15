@@ -242,7 +242,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - 
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/d9869250-3e6c-4780-83dd-bef4993b40d6"><br>
 
 ***
 
