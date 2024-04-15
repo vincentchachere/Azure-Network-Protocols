@@ -420,71 +420,10 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 - Click: The `Blue Wireshark Icon` in the top left corner under 'File'.
 
+- *Now we will go to Part 3 of this lab, which will be 'Observing Differing Network Protocols'.*
+
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/ecfbc969-2a88-48d5-8897-b781efd60077"><br>
-
-***
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
 
 </details>
 
@@ -515,6 +454,69 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 ***
 
 ### 
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
 
 - 
 
