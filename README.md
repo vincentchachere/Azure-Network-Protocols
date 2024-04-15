@@ -287,7 +287,56 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 </summary>
 
-### 
+### 5. ) Install Wireshark
+
+- Open Microsoft Edge Web Browser
+  - *Uncheck & Skip all the prompts it asks you.*
+
+- Search: `Install Wireshark`
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/bc3d9b64-5654-45f5-8628-b9bf21057d01"><br>
+
+***
+
+- Select: `Wireshark - Download`
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/e05430cd-8144-474b-8eb0-a846b4d2f7cc"><br>
+
+***
+
+- Select: `Windows x64 Installer`
+
+- Click: `Open file`
+
+- Click: `Next`
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/919ed2df-f201-4819-8c74-7d0fe76cabfa"><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/75d5f591-7934-463a-9397-94f15523699b"><br>
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/d67cc691-58c7-429e-bc94-de709e30681c"><br>
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
 
 - 
 
@@ -296,7 +345,12 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 ***
 
-### 
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
 
 - 
 
@@ -305,7 +359,47 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 ***
 
-### 
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
 
 - 
 
