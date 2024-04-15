@@ -477,8 +477,10 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 - As you capture VM2's Private IP Address double check that both VM1 and VM2 are on the same VNET and that VM2 is running.
 
+  - Doing this will help in a successful ping, considering everything else was done as demonstrated in this lab.
+
 <p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/961e97a1-3305-47e3-8486-775672d76c28"><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/3e17fdea-f021-404d-b079-68c22daf9f62"><br>
 
 ***
 
