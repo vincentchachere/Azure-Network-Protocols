@@ -409,15 +409,19 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 - Close your Microsoft Web Browser and Search: `Wireshark`
 
+- *Open Wireshark to full screen*
+
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/eee37f99-4c7a-4789-a14a-6816b2db80fd"><br>
 
 ***
 
-- 
+- Select: `Ethernet 2`
+
+- Click: The `Blue Wireshark Icon` in the top left corner under 'File'.
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/ecfbc969-2a88-48d5-8897-b781efd60077"><br>
 
 ***
 
