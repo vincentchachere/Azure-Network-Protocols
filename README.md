@@ -210,12 +210,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ### 4. ) Connect VM1 to RDP
 
-- 
+ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS or Windows go to [my lab](https://github.com/vincentchachere/virtual-machine) on how to create a virtual machine on Step 5 for instructions on how to do that.*
+
+- Copy: `VM1's Public Address`
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/2e2b2438-0332-42ad-a731-77d8aa2c548c"><br>
+
+- Click: `Add PC`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/6b95ec8d-afc4-4365-b799-f4326250fdd5"><br>
 
--
+- Paste: `VM1's Public IP Address`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/fc7c41f6-4158-4865-97bc-5e20626a66f6"><br>
