@@ -448,8 +448,10 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 - Press: `Enter`
 
-- Notice that nothing shows up, since all the traffic is being filtered by ICMP. Remember that ICMP is the abbreviation for 'Internet Control Messaging Protocol'.
-  - This is the protocol PING uses to test connection between different hosts on the internet/network, essentially. So now, this leads us to our next action within this step, which is to retrieve the Private IP Address from the Linux [Ubuntu] Virtual Machine (VM2).
+- Notice that nothing shows up, since all the traffic is being filtered by ICMP.
+  - Remember that ICMP is the abbreviation for 'Internet Control Messaging Protocol'.
+  - Essentially, this is the protocol PING uses to test connection between different hosts on the internet/network.
+  - In order to ping VM2 you will need its' Private IP Address. So now, this leads you to your next action within this step, which is to retrieve the Private IP Address from the Linux [Ubuntu] Virtual Machine (VM2) and attempt to ping VM2 from within the Windows 10 virtual Machine (VM1).
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4d18d8f0-f9fe-403e-bae1-71815cbfeff8"><br>
@@ -473,7 +475,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 - 
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/961e97a1-3305-47e3-8486-775672d76c28"><br>
 
 ***
 
