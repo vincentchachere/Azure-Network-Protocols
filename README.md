@@ -442,6 +442,8 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0c789160-acd6-4157-906f-721689cfebab"><br>
 
+***
+
 - Type in: `icmp`
 
 - Press: `Enter`
