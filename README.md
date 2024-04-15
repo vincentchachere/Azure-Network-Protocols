@@ -268,86 +268,14 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/d9869250-3e6c-4780-83dd-bef4993b40d6"><br>
 
+***
+
 - Now we are inside the Virtual Machine (VM1)!
 
 - Continue to Part 2 of this lab, which is Installing Wireshark inside VM1.
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-### 
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-### 
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-### 
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-### 
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-### 
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-### 
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-### 
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-### 
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/a97043cf-1987-417f-bee5-0d8e60653de3"><br>
 
 </details>
 
