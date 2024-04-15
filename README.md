@@ -190,12 +190,31 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ***
 
+- *<ins>When you confirm the VNET matches the one created when you made VM1</ins>:*
+
+- Click: `Review + Create`
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/8908f4bd-35df-492d-9ad2-b2f94e7e925d"><br>
+
+***
+
+- *<ins>Review the information you typed in and once you verify it's all correct</ins>:*
+
+  - Click: `Create`
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/c661b52f-a636-4c7d-8160-52c6f4c5d388"><br>
+
+***
+
+- 
+
 <p align="center">
 <img width="800" alt="isolated" src=""><br>
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
+
+
+
 <p align="center">
 <img width="800" alt="isolated" src=""><br>
 <p align="center">
