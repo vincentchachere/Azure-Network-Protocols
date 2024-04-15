@@ -456,16 +456,26 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 ***
 
-### 
-
-- Go back into your Azure Portal
+- Go back into your `Home Screen` of your Azure Portal and navigate to your `Virtual Machines Default Directory`.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f5c51e81-552a-4386-af8c-367cc556a07a"><br>
 
 ***
 
-### 
+- Select: `VM2`
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0571f286-c000-431b-8b60-9e22fba5b191"><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
 
 - 
 
