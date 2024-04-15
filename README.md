@@ -287,10 +287,9 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 </summary>
 
-### 5. ) Install Wireshark
+### 5. ) Open Microsoft Edge Web Browser and Install Wireshark
 
-- Open Microsoft Edge Web Browser
-  - *Uncheck & Skip all the prompts it asks you.*
+- *<ins>Uncheck & Skip all the prompts it asks you</ins>.*
 
 - Search: `Install Wireshark`
 
@@ -408,7 +407,7 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 ***
 
-
+- Close your Microsoft Web Browser and Search: `Wireshark`
 
 <p align="center">
 <img width="800" alt="isolated" src=""><br>
