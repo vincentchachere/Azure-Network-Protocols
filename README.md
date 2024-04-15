@@ -192,7 +192,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - *<ins>When you confirm the VNET matches the one created when you made VM1</ins>:*
 
-- Click: `Review + Create`
+  - Click: `Review + Create`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/8908f4bd-35df-492d-9ad2-b2f94e7e925d"><br>
@@ -200,7 +200,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ***
 
 - *<ins>Review the information you typed in and once you verify it's all correct</ins>:*
-
   - Click: `Create`
 
 <p align="center">
@@ -217,36 +216,42 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/2e2b2438-0332-42ad-a731-77d8aa2c548c"><br>
 
-- Click: `Add PC`
+- Select: `Add PC`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/6b95ec8d-afc4-4365-b799-f4326250fdd5"><br>
 
 - Paste: `VM1's Public IP Address`
 
+- Select: `Add`
+
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/fc7c41f6-4158-4865-97bc-5e20626a66f6"><br>
 
-- 
+- Double-Click: `VM1's Remote Desktop Account` *(The Blue Rectangle)*
+
+- Select: `Connect`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/6c46f335-7a53-47b6-82a5-a4c6b7e8a696"><br>
 
-- 
+- User: `labuser`
+
+- Password: `The one you created in Step 2`
+
+- Select: `Continue`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/64e9e366-716c-4076-ae91-40e59fd2cba4"><br>
 
-- 
+- Select: `Continue`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/47f34c0c-8497-4e91-b64c-3c90d5bb41de"><br>
 
-***
+- Uncheck: `All the Boxes`
 
-### 
-
-- 
+- Select: `Accept`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/d9869250-3e6c-4780-83dd-bef4993b40d6"><br>
