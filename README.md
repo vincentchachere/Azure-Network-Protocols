@@ -503,31 +503,55 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 ***
 
-- 
+- So next, we will refresh our display in Wireshark, so that we can do what is called an 'eternal ping'. This is basically what we just did, but instead of the ping stopping it will go on 'forever' until it is stopped and or blocked. How you will stop this 'eternal ping' will be by blocking all icmp traffic from getting to VM2. *(Go to the next image for instrutions.)*
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/43e51805-929f-4653-bd3c-a560ed06c09e"><br>
 
 ***
 
-- 
+- Go back into your: `Azure Portal Home Screen`
+
+- Search: `Network Security Groups`
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/e36dd85a-b229-4b76-a59c-be80642e79ef"><br>
 
 ***
 
-- 
+- Select: `VM2-nsg`
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/a1317929-2ca3-45d6-bd27-8e3699731d18"><br>
 
 ***
 
-- 
+- Select: `Inbound Security Rules`
+
+- Source: `*`
+
+- Source Port Ranges: `Any`
+
+- Service: `Custom`
+
+- Destination Port Ranges: `*`
+
+- Protocol: `ICMP`
+
+- Action: `Deny`
+
+- Priority: `200`
+
+- Name: `DENY_ICMP_FROM_ANYWHERE`
+
+- Click: `Add`
+
+*<ins>Make sure it actually gets added by seeing the 2nd image.</ins>* 
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/07472112-e888-44d5-8a68-c4bfef647595"><br>
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4d686036-5db7-4755-897b-934d342bb311"><br>
 
 ***
 
