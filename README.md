@@ -484,17 +484,19 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 ***
 
-- 
+- Okay, now that you are back in Wireshark with Powershell open go ahead and ping VM2's private ip address and observe the traffic being sent between the two virtual machines (VM1 and VM2).
+  - *As you can see there were 4 packets sent to VM2 and 4 packets recieved by VM2 resulting in 0 packets lost, equally a succesful ping. Congrats!*
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/b89bc760-fbdb-4bc1-8913-9015b80c277b"><br>
 
 ***
 
-- 
+- We can even ping other ip addresses and domain names, such as www.google.com.
+  - To test this out yourself for fun just type in: `ping www.google.com -4` (the '-4' stands for IPv4)
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/71cd1264-b413-49a4-83da-42874fcc5414"><br>
 
 ***
 
