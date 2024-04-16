@@ -485,6 +485,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 ***
 
 - Okay, now that you are back in Wireshark with Powershell open go ahead and ping VM2's private ip address and observe the traffic being sent between the two virtual machines (VM1 and VM2).
+
   - *As you can see there were 4 packets sent to VM2 and 4 packets recieved by VM2 resulting in 0 packets lost, equally a succesful ping. Congrats!*
 
 <p align="center">
