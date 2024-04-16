@@ -493,7 +493,10 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 ***
 
 - We can even ping other ip addresses and domain names, such as www.google.com.
-  - To test this out yourself for fun just type in: `ping www.google.com -4` (the '-4' stands for IPv4)
+
+  - To test this out yourself just type in: `ping www.google.com -4` (the '-4' stands for IPv4)
+ 
+  - As you see, just like you did with pinging the VM2's private ip address, there were 4 packets sent to Google's domain and 4 packets recieved by Google.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/71cd1264-b413-49a4-83da-42874fcc5414"><br>
