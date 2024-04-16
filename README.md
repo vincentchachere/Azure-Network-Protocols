@@ -503,10 +503,15 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 ***
 
-- So next, we will refresh our display in Wireshark, so that we can do what is called an 'eternal ping'. This is basically what we just did, but instead of the ping stopping it will go on 'forever' until it is stopped and or blocked. How you will stop this 'eternal ping' will be by blocking all icmp traffic from getting to VM2. *(Go to the next image for instrutions.)*
+- <ins>EXPLANATION</ins>: So next, we will refresh our display in Wireshark by clicking the 'Green Wireshark Icon' in the top left corner of your Wireshark screen under 'Edit'. Next we will do what is called an 'eternal ping'. This is basically what we just did, but instead of the ping stopping it will go on 'forever' until it is stopped and or blocked. How you will block this 'eternal ping' will be by denying all icmp traffic from getting to VM2. *(Go to the next image for instrutions.)*
 
 <p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/43e51805-929f-4653-bd3c-a560ed06c09e"><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f7e93a65-faf8-4dad-9a49-1663ae8166a6"><br>
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/16578bd8-fa8b-4675-8fb7-d2f9efe9b815"><br>
 
 ***
 
@@ -558,21 +563,9 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 - 
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-- 
-
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/56f671c4-b567-47e7-ac75-51722bd0d7e3"><br>
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
-
-***
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f920c09f-500c-47f9-8334-77300842231e"><br>
 
 ***
 
