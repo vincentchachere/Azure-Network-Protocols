@@ -511,14 +511,17 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f7e93a65-faf8-4dad-9a49-1663ae8166a6"><br>
 
-- 
+<ins>EXPLANATION</ins>: So, just like before you will ping VM2's private ip address, but for this 'eternal ping' you will put a `-t` at the end, making it an 'eternal ping'.
+
+- <ins>ACTION</INS>:
+  - So the 'eternal ping' will be: `ping 10.0.0.5 -t`
+
+  - *Now go back into your Azure Portal Home Screen to deny all icmp traffic to VM2.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/16578bd8-fa8b-4675-8fb7-d2f9efe9b815"><br>
 
 ***
-
-- Go back into your: `Azure Portal Home Screen`
 
 - Search: `Network Security Groups`
 
@@ -554,7 +557,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 - Click: `Add`
 
-*<ins>Make sure it actually gets added by seeing the 2nd image.</ins>* 
+*<ins>Make sure it actually gets added. See the 2nd image to vrify what it should look like. Then go back inside VM1 and observe what this did.</ins>* 
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/07472112-e888-44d5-8a68-c4bfef647595"><br>
