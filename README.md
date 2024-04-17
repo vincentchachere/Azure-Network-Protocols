@@ -567,20 +567,51 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 ***
 
-- As you see it almost instantly stops all ICMP traffic to VM2.
+- As you see, it almost instantly stops all ICMP traffic to VM2.
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/56f671c4-b567-47e7-ac75-51722bd0d7e3"><br>
+
+***
 
 - Once you see the results:
 
   - Press: `Control + C` to stop ping.
+ 
+*<ins>Next, we will observe SSH traffic going to VM2.</ins>*
 
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/56f671c4-b567-47e7-ac75-51722bd0d7e3"><br>
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f920c09f-500c-47f9-8334-77300842231e"><br>
 
 ***
 
-Next, we will observe SSH traffic going to VM2.
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
 
 - 
 
