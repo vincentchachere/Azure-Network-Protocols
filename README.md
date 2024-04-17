@@ -602,12 +602,12 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 - Press: `Enter` when done doing the above action.
 
-- *It will ask you inside Powershell "Are you sure you want to continue?"*
+- *<ins>It will ask you inside Powershell "Are you sure you want to continue?"</ins>*
   - Type in: `yes `
 
   - Press: `Enter`
  
-- It will then prompt you to type in the password you created when making VM2, but you will not be able to see what you're typing as you type it in.
+- It will then prompt you to type in the password you created when making VM2, but you will not be able to see what you're typing as you type it in, this is normal.
   - Just insert your VM2's password as normal and press: `Enter`
 
 <p align="center">
