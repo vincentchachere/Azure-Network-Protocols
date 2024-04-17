@@ -444,7 +444,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 ***
 
-- Type in: `icmp`
+- Type in: `icmp` into the Wireshark Filter Bar
 
 - Press: `Enter`
 
@@ -593,10 +593,25 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 - Select: `Continue without saving`
 
-- Type in: `ssh` 
+- Type in: `ssh` into the Wireshark Filter Bar
+
+- Press: `Enter`
+
+- Type in: `ssh labuser@10.0.0.5` into Powershell
+  - *As you see, this is your VM2's login username (labuser) and your VM2's Private IP Address being used for this protocol.*
+
+- Press: `Enter` when done doing the above action.
+
+- *It will ask you inside Powershell "Are you sure you want to continue?"*
+  - Type in: `yes `
+
+  - Press: `Enter`
+ 
+- It will then prompt you to type in the password you created when making VM2, but you will not be able to see what you're typing as you type it in.
+  - Just insert your VM2's password as normal and press: `Enter`
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0161a9d1-05cb-4d28-90d1-8d272750ae9b"><br>
 
 ***
 
