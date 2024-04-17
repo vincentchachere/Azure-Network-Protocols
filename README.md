@@ -585,7 +585,13 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 ***
 
-- 
+### 7. ) Observe SSH Traffic
+
+<ins>EXPLANATION</ins>: We will filter by SSH traffic now. To simply put it SSH is similar to remote desktop, except you get access to the other computers' command line. So, instead of pinging VM2 you will SSH into VM2 from VM1. In other words, connect from VM1 into VM2 via SSH.
+
+- Click: `Green Wireshark Icon' in the top left corner of your Wireshark screen under 'Edit'.
+
+- Type in: `SSH` 
 
 <p align="center">
 <img width="800" alt="isolated" src=""><br>
