@@ -610,6 +610,8 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 - It will then prompt you to type in the password you created when making VM2, but you will not be able to see what you're typing as you type it in, this is normal.
   - Just insert your VM2's password as normal and press: `Enter`
 
+*<ins>NOTE</ins>: Notice, everytime you type in a command on Powershell you can see the traffic show up on Wireshark.*
+
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0161a9d1-05cb-4d28-90d1-8d272750ae9b"><br>
 
@@ -618,7 +620,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 - 
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0de71102-45a2-4300-a0fe-ef95876c9da0"><br>
 
 ***
 
