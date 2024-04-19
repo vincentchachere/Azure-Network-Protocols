@@ -660,20 +660,20 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 - 
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/22667988-e92b-4ca3-bafa-4a3d5a285ffc"><br>
 
 ***
 
 - 
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/7354cf59-43cb-4e92-9f8f-c9ff800a3ef9"><br>
 
 ***
 
 - 
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4e0a8677-f71b-4691-9fab-da3465121715"><br>
 
 </details>
