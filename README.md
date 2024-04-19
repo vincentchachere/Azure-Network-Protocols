@@ -653,7 +653,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 - 
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/881b2fbf-a807-4167-9eeb-e7d8beecc38a"><br>
 
 ***
 
