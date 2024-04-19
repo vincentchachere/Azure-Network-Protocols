@@ -22,7 +22,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Create Resources
 - Install Wireshark
-- Observe Differing Network Protocols suh as:
+- Observe Differing Network Protocols such as:
   - ICMP Traffic
   - SSH Traffic
   - DHCP Traffic
@@ -627,7 +627,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 - 
 
 <p align="center">
-<img width="800" alt="isolated" src=""><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/febe95ba-fd39-4670-b1e1-36f8e130393f"><br>
 
 ***
 
