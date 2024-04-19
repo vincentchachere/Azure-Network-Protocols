@@ -620,14 +620,47 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 - 
 
 <p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0de71102-45a2-4300-a0fe-ef95876c9da0"><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/febe95ba-fd39-4670-b1e1-36f8e130393f"><br>
 
 ***
 
 - 
 
 <p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/febe95ba-fd39-4670-b1e1-36f8e130393f"><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f47eb165-51f5-485c-a509-619d233299a2"><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/824abc2f-2ada-454f-88a5-1dc62491959d"><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/317eeef0-79e9-413b-95cc-37d148e07654"><br>
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/c9e7672e-375a-4359-9e26-186e73303d1d"><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
+
+***
+
+- 
+
+<p align="center">
+<img width="800" alt="isolated" src=""><br>
 
 ***
 
