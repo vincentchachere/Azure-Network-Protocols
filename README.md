@@ -706,6 +706,8 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/317eeef0-79e9-413b-95cc-37d148e07654"><br>
 
+***
+
 The first command we will test out is 'nslookup'; this stands for 'Name Serve Lookup'. This is a network administration command-line tool for querying the Domain Name System (DNS) to obtain the mapping between domain name and IP address, or other DNS records. To rephrase, it lets users enter a host name and find out the corresponding IP address or domain name system (DNS) records (It asks the DNS Server what the IP Address is for any given host name).
 
 - Type in: `nslookup www.disney.com`
@@ -718,12 +720,22 @@ The first command we will test out is 'nslookup'; this stands for 'Name Serve Lo
 
 - The area in green is the breakdown of the packet that was sent.
 
+<ins>You can now close Powershell for the rest of this lab.</ins>
+
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/c9e7672e-375a-4359-9e26-186e73303d1d"><br>
 
 ***
 
-- 
+### 10. ) Observe RDP Traffic
+
+<ins>EXPLANATION</ins>: RDP allows users to execute remote operations on other computers. RDP uses port 3389 It facilitates secure information exchange between remotely connected machines over an encrypted communication channel. This is a secure network communication protocol offered by Microsoft.
+
+<ins>To view RDP Traffic you will need to</ins>:
+
+- Type in: `tcp.port == 3389` into Wireshark Filter Bar
+
+  - *Now you can observe the constant stream of live traffic happening from RDP and your VM1.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/881b2fbf-a807-4167-9eeb-e7d8beecc38a"><br>
