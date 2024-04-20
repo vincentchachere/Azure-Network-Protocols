@@ -768,4 +768,14 @@ The first command we will test out is 'nslookup'; this stands for 'Name Serve Lo
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4e0a8677-f71b-4691-9fab-da3465121715"><br>
 
+🎉 Congratulations! Complete this lab as many times as needed to solidify your understanding and create a skill that will pay dividends if you choose to put it to use.
+
+☎️ For any questions, concerns, or just to connect, you can contact me at:
+
+📲 LinkedIn: www.linkedin.com/in/vincentchachere
+
+📬 Email: vincent.chachere@gmail.com
+
+(Please no soliticing, or I will have to block you. Only real connections, please and thank you.)
+
 </details>
