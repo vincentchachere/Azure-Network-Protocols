@@ -672,17 +672,18 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 - Press: `Enter`
 
-  - *So now, VM1 will broadcast on your Virtual Network (VNET) to say "Hey, give me and ip address." 
+  - *<ins>So now, VM1 will broadcast on your Virtual Network (VNET) to say "Hey, give me and ip address.". This is a four-step process, which as follows</ins>*:
+
+    - Discover - Client broadcasts a message to discover a DHCP server.
+
+    - Offer - DHCP servers offer an IP address.
+
+    - Request - Client selects an offer and formally requests to use the IP.
+
+    - Acknowledge - The Server formally allocates the IP (and options) to the client.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f47eb165-51f5-485c-a509-619d233299a2"><br>
-
-***
-
-- 
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/824abc2f-2ada-454f-88a5-1dc62491959d"><br>
 
 ***
 
