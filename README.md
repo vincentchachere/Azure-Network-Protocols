@@ -587,7 +587,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 ### 7. ) Observe SSH Traffic
 
-<ins>EXPLANATION</ins>: Back in Wireshark, filter for SSH traffic only, or since ssh uses port 22 you can also use: `tcp.port == 22`. SSH is similar to remote desktop, except that it is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network. So, instead of pinging VM2 you will SSH into VM2 from VM1. In other words, connect from VM1 into VM2 via SSH.
+<ins>EXPLANATION</ins>: Back in Wireshark, filter for SSH (Secure Shell or Secure Socket Shell) traffic only, or since ssh uses port 22 you can also use: `tcp.port == 22`. SSH is similar to remote desktop, except that it is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network. So, instead of pinging VM2 you will SSH into VM2 from VM1. In other words, connect from VM1 into VM2 via SSH.
 
 - Click: `Green Wireshark Icon` in the top left corner of your Wireshark screen under 'Edit'.
 
