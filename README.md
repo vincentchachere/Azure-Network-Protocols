@@ -664,7 +664,7 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 ### 8. ) Observe DHCP Traffic
 
-<ins>EXPLANATION</ins>: DHCP stands for Dynamic Host Configuration Protocol. This protocol dynamically assigns an IP address and other network configuration parameters to each device on a network so they can communicate with other IP networks. This is all done in the background where there is a DHCP server inside of Azure that is 'invisible'. This is where the DHCP server will reissue our IP Address and we can then observe the traffic within Wireshark.
+<ins>EXPLANATION</ins>: DHCP stands for Dynamic Host Configuration Protocol. This protocol dynamically assigns an IP address and other network configuration parameters to each device on a network, so they can communicate with other IP networks. This is all done in the background where there is a DHCP server inside of Azure that is 'invisible'. This is where the DHCP server will reissue our IP Address and we can then observe the traffic within Wireshark.
 
 <ins>You can force the renewal of an ip address by doing the following</ins>:
 
@@ -684,17 +684,29 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
     - Acknowledge - The Server formally allocates the IP (and options) to the client.
 
+>NOTE: It might also disconnect your remote desktop for a moment and then it should reconnect. If not, then just log back in as normal.
+
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f47eb165-51f5-485c-a509-619d233299a2"><br>
 
 ***
 
-- 
+### 9. ) Observe DNS Traffic
+
+<ins>EXPLANATION</ins>: DNS stands for Domain Name System. DNS turns domain website names into IP addresses, which allow browsers to get to websites and other internet resources. Web browsers interact through Internet Protocol (IP) addresses, so every device on the internet has an IP address, which other devices can use to locate the device. So, in laymans terms, it turns human language (words) into computer language (numbers), so that it can communicate with other computers and devices on the internet.
+
+<ins>So to begin you can carry out the following</ins>:
+
+- Type in: `dns` into the Wireshark Filter Bar
+
+  - *As you see, there may be some DNS traffic already within Wireshark. Refresh your Wireshark to start with a clean screen.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/317eeef0-79e9-413b-95cc-37d148e07654"><br>
 
-- 
+The first command 
+
+- Type in: `nslookup www.disney.com`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/c9e7672e-375a-4359-9e26-186e73303d1d"><br>
