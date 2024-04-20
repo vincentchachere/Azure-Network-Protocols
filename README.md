@@ -664,9 +664,15 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 ### 8. ) Observe DHCP Traffic
 
-<ins>EXPLANATION</ins>: DHCP stands for Dynamic Host Configuration Protocol. 
+<ins>EXPLANATION</ins>: DHCP stands for Dynamic Host Configuration Protocol. This protocol dynamically assigns an IP address and other network configuration parameters to each device on a network so they can communicate with other IP networks. This is all done in the background and you can force the renewal of an ip address by doing the following:
 
-- 
+- Type in: `dhcp` into the Wireshark Filter Bar
+
+- Type in: `ipconfig /renew` inside of Powershell
+
+- Press: `Enter`
+
+  - *So now, VM1 will broadcast on your Virtual Network (VNET) to say "Hey, give me and ip address." 
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f47eb165-51f5-485c-a509-619d233299a2"><br>
