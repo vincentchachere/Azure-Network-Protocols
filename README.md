@@ -629,7 +629,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 - 2nd Command: `uname -a`
 
-  - *The `uname` command is used to learn the kernel version that the IBM Netezza host is running, which displays system information. 
+  - *The `uname` command is used to learn the kernel version that the IBM Netezza host is running, which displays system information.*
 
   - *The `-a` option in `uname` command in Linux prints all the system information in the following order: Kernel name, network node hostname, kernel release date, kernel version, machine hardware name, hardware platform, operating system.*
 
@@ -637,7 +637,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 - 3rd Linux Command: `pwd`
 
-  - *This stands for `Print Working Directory`, 
+  - *This stands for `Print Working Directory`, writes the full pathname of the current working directory to the standard output.*
 
 - 4th Linux Command: `ls`
 
@@ -645,7 +645,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 - 5th Linux Command: `touch`
 
-  - 
+  - *This command is used to update the access date and/or modification date of a computer file or directory.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/febe95ba-fd39-4670-b1e1-36f8e130393f"><br>
