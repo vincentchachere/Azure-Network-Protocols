@@ -776,6 +776,6 @@ The first command we will test out is 'nslookup'; this stands for 'Name Serve Lo
 
 📬 Email: vincent.chachere@gmail.com
 
-(Please no soliticing, or I will have to block you. Only real connections, please and thank you.)
+(No soliticing, only real connections, please and thank you.)
 
 </details>
