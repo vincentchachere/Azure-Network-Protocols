@@ -435,9 +435,11 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 </summary>
 
-### 6. ) First we will filter for ICMP traffic only
+### 6. ) First we will Observe and filter by ICMP traffic only
 
-Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed with traffic, when you haven't even begun doing anything yet. This is normal, since there is so much being done in the background.
+<ins>EXPLANATION</ins>: ICMP stands for Internet Control Message Protocol. This protocol is used for reporting errors and performing network diagnostics. In the error reporting process, ICMP sends messages from the receiver to the sender when data does not come through as it should.
+
+- You will notice that your Windows 10 Virtual Machine (VM1) is being spammed with traffic, when you haven't even begun doing anything yet. This is normal, since there is so much being done in the background.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0c789160-acd6-4157-906f-721689cfebab"><br>
@@ -661,6 +663,8 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 ***
 
 ### 8. ) Observe DHCP Traffic
+
+<ins>EXPLANATION</ins>: DHCP stands for Dynamic Host Configuration Protocol. 
 
 - 
 
