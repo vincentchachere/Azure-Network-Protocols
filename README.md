@@ -610,7 +610,7 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
   - Just insert your VM2's password as normal and press: `Enter`
 
-  ><ins>NOTE</ins>: Notice, everytime you type in a command on Powershell you can see the traffic show up on Wireshark.
+><ins>NOTE</ins>: Notice, everytime you type in a command on Powershell you can see the traffic show up on Wireshark.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0161a9d1-05cb-4d28-90d1-8d272750ae9b"><br>
