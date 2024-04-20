@@ -647,6 +647,14 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
   - *This command is used to update the access date and/or modification date of a computer file or directory.*
 
+- You can Exit the SSH protocol inside Powershell by:
+
+  - Typing in: `exit`
+ 
+  - Press: `Enter`
+ 
+><ins>NOTE</ins>: Notice, everytime you typed in a command on Powershell you seen traffic populate within Wireshark.
+
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/febe95ba-fd39-4670-b1e1-36f8e130393f"><br>
 
