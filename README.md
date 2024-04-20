@@ -637,11 +637,11 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 - 3rd Linux Command: `pwd`
 
-  - *This stands for `Print Working Directory`, writes the full pathname of the current working directory to the standard output.*
+  - *This stands for `Print Working Directory`, this command writes the full pathname of the current working directory to the standard output.*
 
 - 4th Linux Command: `ls`
 
-  - *This stands for `List`, this is a command to list computer files and directories in Unix and Unix-like operating systems.*
+  - *This stands for `List`, this is a command that lists computer files and directories in Unix and Unix-like operating systems.*
 
 - 5th Linux Command: `touch`
 
