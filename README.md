@@ -742,21 +742,28 @@ The first command we will test out is 'nslookup'; this stands for 'Name Serve Lo
 
 ***
 
-- 
+### 11. ) Delete your Rsources
 
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/22667988-e92b-4ca3-bafa-4a3d5a285ffc"><br>
+- <ins>Go back into your Azure Portal</ins>:
 
-***
+  - Go To: `RG-LAB-02`
+ 
+  - Select: `Delete resource group`
+ 
+  - Copy & Paste: `RG-LAB-02` into the Rectangular box towards the bottom right underneath where it says `Enter resource group name to confirm deletion`.
 
-- 
+  - Check: `The Box` where it says `Apply force delete for selected Virtual machines and Virtual machine scale sets`
+
+  - Click: `Delete`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/7354cf59-43cb-4e92-9f8f-c9ff800a3ef9"><br>
 
 ***
 
-- 
+- Delete: `NetworkWatcherRG`
+
+  - *(Perform the same instructions as you did with RG-LAB-02)*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4e0a8677-f71b-4691-9fab-da3465121715"><br>
