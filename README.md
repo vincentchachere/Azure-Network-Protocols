@@ -695,18 +695,28 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 <ins>EXPLANATION</ins>: DNS stands for Domain Name System. DNS turns domain website names into IP addresses, which allow browsers to get to websites and other internet resources. Web browsers interact through Internet Protocol (IP) addresses, so every device on the internet has an IP address, which other devices can use to locate the device. So, in laymans terms, it turns human language (words) into computer language (numbers), so that it can communicate with other computers and devices on the internet.
 
-<ins>So to begin you can carry out the following</ins>:
+<ins>So to begin, you can carry out the following</ins>:
 
 - Type in: `dns` into the Wireshark Filter Bar
+
+  - You can also use: `udp.port == 53` since DNS uses port 53
 
   - *As you see, there may be some DNS traffic already within Wireshark. Refresh your Wireshark to start with a clean screen.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/317eeef0-79e9-413b-95cc-37d148e07654"><br>
 
-The first command 
+The first command we will test out is 'nslookup'; this stands for 'Name Serve Lookup'. This is a network administration command-line tool for querying the Domain Name System (DNS) to obtain the mapping between domain name and IP address, or other DNS records. To rephrase, it lets users enter a host name and find out the corresponding IP address or domain name system (DNS) records (It asks the DNS Server what the IP Address is for any given host name).
 
 - Type in: `nslookup www.disney.com`
+
+- Press: `Enter`
+
+  - *When you complete this action you will see a bunch of 'source' and 'destination' traffic between your VM and the DNS Server.*
+
+- The traffic you see in Wireshark are some of the IP Addresses that Disney uses.
+
+- The area in green is the breakdown of the packet that was sent.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/c9e7672e-375a-4359-9e26-186e73303d1d"><br>
