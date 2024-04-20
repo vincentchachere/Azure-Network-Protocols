@@ -750,9 +750,9 @@ The first command we will test out is 'nslookup'; this stands for 'Name Serve Lo
  
   - Select: `Delete resource group`
  
-  - Copy & Paste: `RG-LAB-02` into the Rectangular box towards the bottom right underneath where it says `Enter resource group name to confirm deletion`.
+  - Copy & Paste: `RG-LAB-02` into the Rectangular box towards the bottom right underneath where it says 'Enter resource group name to confirm deletion'.
 
-  - Check: `The Box` where it says `Apply force delete for selected Virtual machines and Virtual machine scale sets`
+  - Check: `The Box` where it says 'Apply force delete for selected Virtual machines and Virtual machine scale sets'.
 
   - Click: `Delete`
 
