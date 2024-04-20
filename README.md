@@ -623,11 +623,11 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 <ins>Now you can test out some commands within the SSH protocol inside Powershell, such as</ins>:
 
-- Command: `id`
+- 1st Command: `id`
 
   - *This command is typically used in conjunction with other command-line tools, such as the net command, to display or modify user or group information.*
 
-- Command: `uname -a`
+- 2nd Command: `uname -a`
 
   - *The `uname` command is used to learn the kernel version that the IBM Netezza host is running, which displays system information. 
 
@@ -635,11 +635,17 @@ Now, you will notice that your Windows 10 Virtual Machine (VM1) is being spammed
 
 <ins>You can also try out a few Linux commands within the SSH protocol inside Powershell, such as</ins>:
 
-- 1st Linux Command: `pwd` (This stands for `Print Working Directory`, )
+- 3rd Linux Command: `pwd`
 
-- 2nd Linux Command: `ls` (This stands for `List`, this is a command to list computer files and directories in Unix and Unix-like operating systems.)
+  - *This stands for `Print Working Directory`, 
 
-- 3rd Linux Command: `touch` (
+- 4th Linux Command: `ls`
+
+  - *This stands for `List`, this is a command to list computer files and directories in Unix and Unix-like operating systems.*
+
+- 5th Linux Command: `touch`
+
+  - 
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/febe95ba-fd39-4670-b1e1-36f8e130393f"><br>
