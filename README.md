@@ -23,11 +23,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Create Resources
 - Install Wireshark
 - Observe Differing Network Protocols such as:
-  - ICMP Traffic
-  - SSH Traffic
-  - DHCP Traffic
-  - DNS Traffic
-  - RDP Traffic
+  - ICMP Traffic (
+  - SSH Traffic (
+  - DHCP Traffic (
+  - DNS Traffic (
+  - RDP Traffic (
 
 ## Additional Resources
 
