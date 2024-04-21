@@ -664,7 +664,7 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 ### 8. ) Observe DHCP Traffic
 
-<ins>EXPLANATION</ins>: DHCP stands for Dynamic Host Configuration Protocol. This protocol dynamically assigns an IP address and other network configuration parameters to each device on a network, so they can communicate with other IP networks. This is all done in the background where there is a DHCP server inside of Azure that is 'invisible'. This is where the DHCP server will reissue our IP Address and we can then observe the traffic within Wireshark.
+<ins>EXPLANATION</ins>: DHCP stands for Dynamic Host Configuration Protocol. DHCP uses UDP port 67 on the server side and UDP port 68 on the client side. DHCP also has two versions: DHCPv4 and DHCPv6 to support IPv4 and IPv6, respectively. These two versions, much like the two versions of IP, are very different and are therefore considered separate protocols and use separate ports. The DHCP protocol dynamically assigns an IP address and other network configuration parameters to each device on a network, so they can communicate with other IP networks. This is all done in the background where there is a DHCP server inside of Azure that is 'invisible'. This is where the DHCP server will reissue our IP Address and we can then observe the traffic within Wireshark.
 
 <ins>You can force the renewal of an ip address by doing the following</ins>:
 
