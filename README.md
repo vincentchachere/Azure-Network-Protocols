@@ -437,7 +437,7 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 ### 6. ) First we will Observe and filter by ICMP traffic only
 
-<ins>EXPLANATION</ins>: ICMP stands for Internet Control Message Protocol. This protocol is used for reporting errors and performing network diagnostics. In the error reporting process, ICMP sends messages from the receiver to the sender when data does not come through as it should.
+<ins>EXPLANATION</ins>: ICMP stands for Internet Control Message Protocol. This is the protocol ping command uses to send an echo request to the target host. Then the target host responds with an echo reply. The ICMP protocol is used for reporting errors and performing network diagnostics. In the error reporting process, ICMP sends messages from the receiver to the sender when data does not come through as it should.
 
 - You will notice that your Windows 10 Virtual Machine (VM1) is being spammed with traffic, when you haven't even begun doing anything yet. This is normal, since there is so much being done in the background.
 
