@@ -23,11 +23,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Create Resources
 - Install Wireshark
 - Observe Differing Network Protocols such as:
-  - ICMP Traffic (
-  - SSH Traffic (
-  - DHCP Traffic (
-  - DNS Traffic (
-  - RDP Traffic (
+  - ICMP Traffic (Ping Command)
+  - SSH Traffic (tcp.port == 22)
+  - DHCP Traffic (UDP port 67 on the server side and UDP port 68 on the client side)
+  - DNS Traffic (udp.port == 53)
+  - RDP Traffic (tcp.port == 3389)
 
 ## Additional Resources
 
