@@ -39,7 +39,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <summary> 
   
-### Part 1: Install Resources
+### 👣 Part 1: Install Resources
   
 </summary> 
 
@@ -283,7 +283,7 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 <summary>
 
-### Part 2: Install Wireshark
+### 👣 Part 2: Install Wireshark
 
 </summary>
 
@@ -431,7 +431,7 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 
 <summary>
 
-### Part 3: Observe Differing Network Protocols
+### 👣 Part 3: Observe Differing Network Protocols
 
 </summary>
 
