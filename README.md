@@ -770,12 +770,12 @@ The first command we will test out is 'nslookup'; this stands for 'Name Serve Lo
 
 🎉 Congratulations! Complete this lab as many times as needed to solidify your understanding and create a skill that will pay dividends if you choose to put it to use.
 
-☎️ For any questions, concerns, or just to connect, you can contact me at:
+☎️ For any questions, advice (for me or for you), constructive criticism, or just to connect, you can contact me at:
 
 📲 LinkedIn: www.linkedin.com/in/vincentchachere
 
 📬 Email: vincent.chachere@gmail.com
 
-(No soliticing, only real connections, please and thank you.)
+(Please no soliticing, only real connections, please and thank you.😁👍🏾)
 
 </details>
