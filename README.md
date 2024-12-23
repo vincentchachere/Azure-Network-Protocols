@@ -261,7 +261,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Select: `Noted`
 
-- Click: `Next` until you reach USB Capture (*Next Image*)
+- Click: `Next` until you reach: `USB Capture` (*Next Image*)
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/75d5f591-7934-463a-9397-94f15523699b"><br>
@@ -331,7 +331,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
-<ins>Close your Microsoft Web Browser and</ins>:
+<ins>Close your Microsoft Web Browser and Open Wireshark</ins>:
 
 - Search: `Wireshark`
 
@@ -344,14 +344,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
+<ins>Inside Wireshark</ins>:
+
 - Select: `Ethernet 2`
 
 - Click: The `Blue Wireshark Icon` in the top left corner under 'File'.
 
-- *Now we will go to Part 3 of this lab, which will be 'Observing Differing Network Protocols'.*
+*Continue to Part 3 of this lab where we'll be <ins>Observing Differing Network Protocols</ins>.*
 
 <p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/ecfbc969-2a88-48d5-8897-b781efd60077"><br>
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/13ccd112-0f5b-4e56-b29c-eda71f099530"><br>
 
 </details>
 
