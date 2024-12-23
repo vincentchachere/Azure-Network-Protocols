@@ -39,7 +39,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <summary> 
   
-### 👣 Part 1: Install Resources
+### ⚙️ Part 1: Install Resources
   
 </summary> 
 
@@ -52,7 +52,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/8817b441-20c7-4402-96ba-93590df8d535"><br>
 
-***
+<br>
+<br>
+<br>
+
+<ins>Create your Resource Group</ins>:
 
 - Subscription: `Azure Subscription 1`
 
@@ -62,32 +66,31 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Select: `Review + Create`
 
+- Click: `Create`
+
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/5ff75287-da94-4e53-824e-7111f412c7a0"><br>
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/6b0736f2-dd6a-4ed3-9e5b-a72570a4a46e"><br>
 
-***
-
-- Click: `Create`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/73aa9fd5-42d8-4590-8596-58cd61ddf67d"><br>
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/25da2c2f-598f-4bf6-b3e2-9ef5a7a8c773"><br>
-
-***
+<br>
+<br>
+<br>
 
 ### 2. ) Create a Windows 10 Virtual Machine (VM1)
 
 - Search: `Virtual Machine`
 
-- Click: `Create > Azure Virtual Machine`
+- Click: `Create` > Select: `Azure Virtual Machine`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/9101c495-f928-4aa1-8e9e-6008ce9e1a57"><br>
 
-***
+<br>
+<br>
+<br>
+
+<ins>Create a Windows 10 Virtual Machine (VM1)<ins>:
 
 - Subscription: `Azure Subscription 1`
 
@@ -106,52 +109,43 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - (Disk) Size: `Standard LD45_v3 - 4 vcpus, 16 GiB memory ($140.16/month)`
 
 - User: `labuser`
+
 - Password: *`Something You Can Easily Remember`*
 
 - Select Inbound Ports: `RDP (3389)`
 
 - Check: `Licensing Box`
 
-- *<ins>When you're done typing in all the information</ins>:*
-
-  - Go To: `Networking` Tab
-    - Take a mental note of the Virtual Network [VNET] the VM creates. You will need to know this for when you create VM2 in the next step.
+- Go To: `Networking` Tab to view your Virtual Network (Vnet)
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/81279c8d-be5a-4e55-a046-9c197e84dbf4"><br>
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4ff4a264-ad0c-47f3-9cc3-0ce2877df31b"><br>
 
-***
+<br>
+<br>
+<br>
 
-- The Virtual Network [VNET] created for this Virtual Machine is: `VM-vnet`
+<ins>When you're done typing in all the information</ins>:
 
-- Click: `Review + Create`
+*Take a mental note of the Virtual Network (Vnet) the VM creates.*
+*You will need to know this for when you create VM2 in the next step.*
 
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0ce9eed6-efda-4359-a53c-7e2d1895059b"><br>
+  - The Virtual Network (Vnet) created for this Virtual Machine is: `VM1-vnet`
 
-***
-
-- *<ins>Review the information you typed in and once you verify it's all correct</ins>:*
+  - Click: `Review + Create`
 
   - Click: `Create`
 
 <p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/5757c155-fc86-4cc0-aa29-10b699d26489"><br>
+<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0ce9eed6-efda-4359-a53c-7e2d1895059b"><br>
 
-***
+<br>
+<br>
+<br>
 
 ### 3. ) Create a Linux [Ubuntu] Virtual Machine (VM2)
-
-- Search: `Virtual Machine`
-
-- Click: `Create > Azure Virtual Machine`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/9101c495-f928-4aa1-8e9e-6008ce9e1a57"><br>
-
-***
 
 - Subscription: `Azure Subscription 1`
 
@@ -174,7 +168,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - User: `labuser`
 
 - Password: *`Something You Can Easily Remember`*
-  - *Yes, the username and password can be the same as the VM1 login. You can change it if you want, but be sure to remember it.*
+  - *The username and password can be the same as the VM1 login. You can change it if you want, but be sure to remember it.*
 
 - Select Inbound Ports: `SSH (22)`
 
