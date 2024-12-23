@@ -361,15 +361,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <summary>
 
-### 👣 Part 3: Observe Differing Network Protocols
+### ⚙️ Part 3: Observe Differing Network Protocols
 
 </summary>
 
-### 6. ) First we will Observe and filter by ICMP traffic only
+### 6. ) First we will Observe and Filter by ICMP Traffic Only
 
-<ins>EXPLANATION</ins>: ICMP stands for Internet Control Message Protocol. This is the protocol ping command uses to send an echo request to the target host. Then the target host responds with an echo reply. The ICMP protocol is used for reporting errors and performing network diagnostics. In the error reporting process, ICMP sends messages from the receiver to the sender when data does not come through as it should.
+<ins>EXPLANATION</ins>: ICMP (Internet Control Message Protocol) is used for reporting network errors and diagnostics. It enables the ping command, where an echo request is sent to a target host, which replies with an echo reply. ICMP messages notify the sender of issues like undelivered data or unreachable hosts.
 
-- You will notice that your Windows 10 Virtual Machine (VM1) is being spammed with traffic, when you haven't even begun doing anything yet. This is normal, since there is so much being done in the background.
+- On your Windows 10 Virtual Machine (VM1), you may notice it being spammed with traffic before you start any tasks. This is normal due to background processes.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0c789160-acd6-4157-906f-721689cfebab"><br>
@@ -378,17 +378,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
+<ins>Observing and Filtering by ICMP Traffic Only</ins>:
+
 - Type in: `icmp` into the Wireshark Filter Bar
 
 - Press: `Enter`
 
-- <ins>Notice that nothing shows up, since all the traffic is being filtered by ICMP</ins>.
+<ins>Notice that no traffic appears because only ICMP packets are displayed</ins>.
 
-  - Remember that ICMP is the abbreviation for 'Internet Control Messaging Protocol'.
-
-  - Essentially, this is the protocol PING uses to test connection between different hosts on the internet/network.
-
-  - In order to ping VM2 you will need its' Private IP Address. So now, this leads you to your next action within this step, which is to retrieve the Private IP Address from the Linux [Ubuntu] Virtual Machine (VM2) and attempt to ping VM2 from within the Windows 10 virtual Machine (VM1).
+To ping VM2, you need its private IP address. So we'll go back to our azure portal and retrieve the private IP from the Linux (Ubuntu) VM2, then ping it from the Windows 10 VM1.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4d18d8f0-f9fe-403e-bae1-71815cbfeff8"><br>
@@ -397,27 +395,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
-- Go back into your `Home Screen` of your Azure Portal and navigate to your `Virtual Machines Default Directory`.
+<ins>Retrieving VM2's Private IP Address</ins>:
 
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f5c51e81-552a-4386-af8c-367cc556a07a"><br>
+Go To: `Azure Home Portal` > `Virtual Machine`
 
-<br>
-<br>
-<br>
-
-- Select: `VM2`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0571f286-c000-431b-8b60-9e22fba5b191"><br>
-
-<br>
-<br>
-<br>
-
-- As you capture VM2's Private IP Address double check that both VM1 and VM2 are on the same VNET and that VM2 is running.
-
-  - Doing this will help in a successful ping, considering everything else was done as demonstrated in this lab.
+*Verify VM1 and VM1 are on the same Vnet to ensure a successful ping.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/3e17fdea-f021-404d-b079-68c22daf9f62"><br>
@@ -425,6 +407,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 <br>
+
+<ins>Back inside VM1 with Wireshark</ins:
 
 - Okay, now that you are back in Wireshark with Powershell open go ahead and ping VM2's private ip address and observe the traffic being sent between the two virtual machines (VM1 and VM2).
 
