@@ -408,9 +408,9 @@ Go To: `Azure Home Portal` > `Virtual Machine`
 <br>
 <br>
 
-<ins>Back inside VM1 with Wireshark</ins:
+<ins>Back inside VM1 with Wireshark</ins>:
 
-- Go ahead and ping VM2's private ip address and observe the traffic being sent between the two virtual machines (VM1 and VM2).
+- Ping VM2's private ip address and observe the traffic being sent between VM1 and VM2.
 
 *As you can see four packets were sent to VM2, and four were received, with no packet loss—indicating a successful ping.*
 
@@ -423,7 +423,7 @@ Go To: `Azure Home Portal` > `Virtual Machine`
 
 <ins>Observing and Filtering by ICMP Traffic Only</ins>:
 
-We can even ping other ip addresses and domain names, such as: www.google.com.
+We can even ping other IP Addresses and domain names, such as: www.google.com.
 
 To test this out yourself just type in: `ping www.google.com -4` (the -4 stands for IPv4)
 
@@ -565,13 +565,25 @@ Next, we will observe SSH traffic going to VM2.
 
 *Notice your VM2's login username (labuser) and your VM2's Private IP Address being used for this protocol.*
 
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/e108d78f-e23f-47a4-a1f4-8fd180f6c496"><br>
+
+<br>
+<br>
+<br>
+
 <ins>It will ask you inside Powershell</ins>: "Are you sure you want to continue?"
     
-    - Type In: `yes `
+- Type In: `yes `
 
-    - Press: `Enter`
- 
-- It will then prompt you to type in the password you created when making VM2, but you will not be able to see what you're typing as you type it in, this is normal.
+- Press: `Enter`
+
+*You will be prompted to enter the password created for VM2. Note that the password will not be visible as you type—this is normal.*
+
+*Next, test out some commands within the SSH protocol inside Powershell*
+
+<p align="center">
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/23a14ad1-de46-45f9-9e6a-62015a50eabf">
 
   - *<ins>Just insert your VM2's password as normal and</ins>*:
 
@@ -581,12 +593,6 @@ Next, we will observe SSH traffic going to VM2.
 
 ><ins>NOTE</ins>: Notice, everytime you type in a command on Powershell you can see the traffic show up on Wireshark.
 
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/e108d78f-e23f-47a4-a1f4-8fd180f6c496"><br>
-
-<br>
-<br>
-<br>
 
 <ins>Now you can test out some commands within the SSH protocol inside Powershell, such as</ins>:
 
@@ -623,7 +629,7 @@ Next, we will observe SSH traffic going to VM2.
 ><ins>NOTE</ins>: Notice, everytime you typed in a command on Powershell you seen traffic populate within Wireshark.
 
 <p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/febe95ba-fd39-4670-b1e1-36f8e130393f"><br>
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/6a5b46ec-ca9f-4148-aa89-4e94e570d7d4"><br>
 
 <br>
 <br>
