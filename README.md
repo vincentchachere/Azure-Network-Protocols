@@ -634,27 +634,27 @@ Next, we will observe SSH traffic going to VM2.
 
 ### 8. ) Observe DHCP Traffic
 
-<ins>EXPLANATION</ins>: DHCP stands for Dynamic Host Configuration Protocol. DHCP uses UDP port 67 on the server side and UDP port 68 on the client side. DHCP also has two versions: DHCPv4 and DHCPv6 to support IPv4 and IPv6, respectively. These two versions, much like the two versions of IP, are very different and are therefore considered separate protocols and use separate ports. The DHCP protocol dynamically assigns an IP address and other network configuration parameters to each device on a network, so they can communicate with other IP networks. This is all done in the background where there is a DHCP server inside of Azure that is 'invisible'. This is where the DHCP server will reissue our IP Address and we can then observe the traffic within Wireshark.
+<ins>EXPLANATION</ins>: DHCP (Dynamic Host Configuration Protocol) uses UDP port 67 (server) and UDP port 68 (client). It has two versions, DHCPv4 and DHCPv6, for IPv4 and IPv6, respectively, which are distinct protocols with separate ports. DHCP dynamically assigns IP addresses and network configurations to devices, enabling communication across IP networks. In Azure, an invisible DHCP server handles this process, reissuing IP addresses. This activity can be observed in Wireshark.
 
 <ins>You can force the renewal of an ip address by doing the following</ins>:
 
-- Type in: `dhcp` into the Wireshark Filter Bar
+- Type: `dhcp` into the Wireshark Filter Bar
 
-- Type in: `ipconfig /renew` inside of Powershell
+- Type: `ipconfig /renew` inside of Powershell
 
 - Press: `Enter`
 
-  - *<ins>So now, VM1 will broadcast on your Virtual Network (VNET) to say "Hey, give me and ip address.". This is a four-step process, which as follows</ins>*:
+<ins>Now, VM1 will broadcast on the Virtual Network (VNET) requesting an IP address. This occurs through a four-step process, which is as follows:</ins>:
 
-    - Discover - Client broadcasts a message to discover a DHCP server.
+- Discover: Client broadcasts a request to find a DHCP server.
 
-    - Offer - DHCP servers offer an IP address.
+- Offer: DHCP servers respond with available IP address offers.
 
-    - Request - Client selects an offer and formally requests to use the IP.
+- Request: Client selects an offer and requests to use the IP.
 
-    - Acknowledge - The Server formally allocates the IP (and options) to the client.
+- Acknowledge: Server confirms and allocates the IP and options to the client.
 
->NOTE: It might also disconnect your remote desktop for a moment and then it should reconnect. If not, then just log back in as normal.
+*It may disconnect your remote desktop for a moment then it should reconnect. If not, then log back in as normal.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f47eb165-51f5-485c-a509-619d233299a2"><br>
