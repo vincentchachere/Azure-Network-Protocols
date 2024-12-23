@@ -410,9 +410,9 @@ Go To: `Azure Home Portal` > `Virtual Machine`
 
 <ins>Back inside VM1 with Wireshark</ins:
 
-- Okay, now that you are back in Wireshark with Powershell open go ahead and ping VM2's private ip address and observe the traffic being sent between the two virtual machines (VM1 and VM2).
+- Go ahead and ping VM2's private ip address and observe the traffic being sent between the two virtual machines (VM1 and VM2).
 
-  - *As you can see there were 4 packets sent to VM2 and 4 packets recieved by VM2 resulting in 0 packets lost, equally a succesful ping. Congrats!*
+*As you can see four packets were sent to VM2, and four were received, with no packet loss—indicating a successful ping.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/b89bc760-fbdb-4bc1-8913-9015b80c277b"><br>
@@ -421,11 +421,13 @@ Go To: `Azure Home Portal` > `Virtual Machine`
 <br>
 <br>
 
-- We can even ping other ip addresses and domain names, such as www.google.com.
+<ins>Observing and Filtering by ICMP Traffic Only</ins>:
 
-  - To test this out yourself just type in: `ping www.google.com -4` (the '-4' stands for IPv4)
- 
-  - As you see, just like you did with pinging the VM2's private ip address, there were 4 packets sent to Google's domain and 4 packets recieved by Google.
+We can even ping other ip addresses and domain names, such as: www.google.com.
+
+To test this out yourself just type in: `ping www.google.com -4` (the -4 stands for IPv4)
+
+*As you see, just like you did with pinging the VM2's private ip address, there were four packets sent to Google's domain and four packets recieved by Google-indicating successful ping.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/71cd1264-b413-49a4-83da-42874fcc5414"><br>
@@ -434,16 +436,24 @@ Go To: `Azure Home Portal` > `Virtual Machine`
 <br>
 <br>
 
-- <ins>EXPLANATION</ins>: So next, we will refresh our display in Wireshark by clicking the 'Green Wireshark Icon' in the top left corner of your Wireshark screen under 'Edit'.
+<ins>Observing the Eternal Ping</ins>:
 
-  - Next we will do what is called an 'eternal ping'. This is basically what we just did, but instead of the ping stopping it will go on 'forever' until it is stopped and or blocked. How you will block this 'eternal ping' will be by denying all icmp traffic from getting to VM2. *(Go to the next image for instrutions.)*
+<ins>EXPLANATION</ins>: Next we'll refresh our display in Wireshark by clicking the `Green Wireshark Icon` in the top left corner of your Wireshark screen.
+
+  - The Eternal Ping is like a regular ping, but it continues indefinitely until stopped or blocked. To block it, you’ll deny all ICMP traffic to VM2.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f7e93a65-faf8-4dad-9a49-1663ae8166a6"><br>
 
-<ins>EXPLANATION</ins>: So, just like before you will ping VM2's private ip address, but for this 'eternal ping' you will put a `-t` at the end, making it an 'eternal ping'.
+<br>
+<br>
+<br>
 
-- So the 'eternal ping' will be: `ping 10.0.0.5 -t`
+<ins>Observing the Eternal Ping</ins>:
+
+Just as before you will ping VM2's private ip address, but for this 'eternal ping' you will put a `-t` at the end, making it an 'eternal ping'.
+
+- The Eternal Ping will be: `ping 10.0.0.5 -t` (*or whatever your VM2's Private IP Address is*)
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/16578bd8-fa8b-4675-8fb7-d2f9efe9b815"><br>
@@ -452,18 +462,13 @@ Go To: `Azure Home Portal` > `Virtual Machine`
 <br>
 <br>
 
-<ins>EXPLANATION</ins>: Now, as mentioned earlier we will deny all ICMP traffic going to VM2 and observe the changes.
+<ins>Denying ICMP Traffic</ins>:
+
+As mentioned earlier we will deny all ICMP traffic going to VM2 and observe the changes.
 
 - Go back into your: `Azure Portal Home Screen` to deny all icmp traffic to VM2.
 
-- Search: `Network Security Groups`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/e36dd85a-b229-4b76-a59c-be80642e79ef"><br>
-
-<br>
-<br>
-<br>
+- Search and Select: `Network Security Groups`
 
 - Select: `VM2-nsg`
 
@@ -473,6 +478,8 @@ Go To: `Azure Home Portal` > `Virtual Machine`
 <br>
 <br>
 <br>
+
+<ins>Denying ICMP Traffic</ins>:
 
 - Select: `Inbound Security Rules`
 
@@ -494,10 +501,19 @@ Go To: `Azure Home Portal` > `Virtual Machine`
 
 - Click: `Add`
 
-*<ins>Make sure it actually gets added. See the 2nd image to verify what it should look like. Then go back inside VM1 and observe what this did.</ins>* 
+*Verify this Inbound Security Rule gets added.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/07472112-e888-44d5-8a68-c4bfef647595"><br>
+
+<br>
+<br>
+<br>
+
+<ins>Denying ICMP Traffic</ins>:
+
+Once you've verified it actually got added go back inside VM1 and observe the changes.
+
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4d686036-5db7-4755-897b-934d342bb311"><br>
 
@@ -505,7 +521,9 @@ Go To: `Azure Home Portal` > `Virtual Machine`
 <br>
 <br>
 
-- As you see, it almost instantly stops all ICMP traffic to VM2.
+<ins>Denying ICMP Traffic</ins>:
+
+As you see, it almost instantly stops all ICMP traffic to VM2.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/56f671c4-b567-47e7-ac75-51722bd0d7e3"><br>
@@ -514,11 +532,13 @@ Go To: `Azure Home Portal` > `Virtual Machine`
 <br>
 <br>
 
-- Once you see the results:
+<ins>Denying ICMP Traffic</ins>:
 
-  - Press: `Control + C` to stop ping.
+Once you see the results:
+
+  - Press: `Control + C` to stop the ping.
  
-*<ins>Next, we will observe SSH traffic going to VM2.</ins>*
+Next, we will observe SSH traffic going to VM2.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f920c09f-500c-47f9-8334-77300842231e"><br>
