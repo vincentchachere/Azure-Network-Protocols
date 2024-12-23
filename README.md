@@ -210,6 +210,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
+<ins>Remote Desktop (RDP) into VM1</ins>:
+
 - Uncheck: `All the Boxes`
 
 - Select: `Accept`
@@ -221,7 +223,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
-<ins>Once inside continue to Part 2 of this lab, which is Installing Wireshark inside VM1</ins>
+<ins>Once inside continue to Part 2 of this lab, which is Installing Wireshark inside VM1</ins>.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/a97043cf-1987-417f-bee5-0d8e60653de3"><br>
@@ -232,31 +234,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <summary>
 
-### 👣 Part 2: Install Wireshark
+### ⚙️ Part 2: Install Wireshark
 
 </summary>
 
 ### 5. ) Open Microsoft Edge Web Browser and Install Wireshark
 
-- *<ins>Uncheck & Skip all the prompts it asks you</ins>.*
+*Uncheck & Skip all the prompts it asks you*
 
-- Search: `Install Wireshark`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/bc3d9b64-5654-45f5-8628-b9bf21057d01"><br>
-
-<br>
-<br>
-<br>
-
-- Select: `Wireshark - Download`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/e05430cd-8144-474b-8eb0-a846b4d2f7cc"><br>
-
-<br>
-<br>
-<br>
+- Browse: `www.wireshark.org`
 
 - Select: `Windows x64 Installer`
 
@@ -271,7 +257,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
+<ins>Installing Wireshark Instructions</ins>:
+
 - Select: `Noted`
+
+- Click: `Next` until you reach USB Capture (*Next Image*)
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/75d5f591-7934-463a-9397-94f15523699b"><br>
@@ -280,50 +270,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
-- Select: `Next` 
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/d67cc691-58c7-429e-bc94-de709e30681c"><br>
-
-<br>
-<br>
-<br>
-
-- Select: `Next`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/9543f800-4e5a-4b76-930d-7e2cad6bb951"><br>
-
-<br>
-<br>
-<br>
-
-- Select: `Next`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/218e8cbf-5c72-4eba-be38-f5432849016b"><br>
-
-<br>
-<br>
-<br>
-
-- Select: `Next`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/72418587-57de-46b8-b521-08a8f1e86b3f"><br>
-
-<br>
-<br>
-<br>
-
-- Select: `Next`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/8e03c913-3f18-41e8-8c58-b5b2a0c6b80b"><br>
-
-<br>
-<br>
-<br>
+<ins>Installing Wireshark Instructions</ins>:
 
 - Select: `Install`
 
@@ -334,6 +281,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
+<ins>Installing Wireshark Instructions</ins>:
+
 - Select: `I Agree`
 
 <p align="center">
@@ -342,6 +291,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 <br>
+
+<ins>Installing Wireshark Instructions</ins>:
 
 - Select: `Install`
 
@@ -352,7 +303,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
+<ins>Installing Wireshark Instructions</ins>:
+
 - Select: `Next`
+
+*Wait till that loads then..*
+
+- Select: `Finish`
+
+- Click: `Next`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/cdf73159-75c2-4f7f-bb11-f1637393c804"><br>
@@ -361,23 +320,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
-- Select: `Finish`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/a4d81ffc-39be-42f1-897f-57f1836fdc63"><br>
-
-<br>
-<br>
-<br>
-
-- Select: `Next`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/10cca54b-98a7-45db-b2be-97f4fed8b99d"><br>
-
-<br>
-<br>
-<br>
+<ins>Installing Wireshark Instructions</ins>:
 
 - Select: `Finish`
 
@@ -388,14 +331,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
-- Close your Microsoft Web Browser and Search: `Wireshark`
+<ins>Close your Microsoft Web Browser and</ins>:
 
-- *Open Wireshark to full screen*
+- Search: `Wireshark`
+
+*Open Wireshark to full screen*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/eee37f99-4c7a-4789-a14a-6816b2db80fd"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Ethernet 2`
 
@@ -425,7 +372,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0c789160-acd6-4157-906f-721689cfebab"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Type in: `icmp` into the Wireshark Filter Bar
 
@@ -442,21 +391,27 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4d18d8f0-f9fe-403e-bae1-71815cbfeff8"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Go back into your `Home Screen` of your Azure Portal and navigate to your `Virtual Machines Default Directory`.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f5c51e81-552a-4386-af8c-367cc556a07a"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `VM2`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0571f286-c000-431b-8b60-9e22fba5b191"><br>
 
-***
+<br>
+<br>
+<br>
 
 - As you capture VM2's Private IP Address double check that both VM1 and VM2 are on the same VNET and that VM2 is running.
 
@@ -465,7 +420,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/3e17fdea-f021-404d-b079-68c22daf9f62"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Okay, now that you are back in Wireshark with Powershell open go ahead and ping VM2's private ip address and observe the traffic being sent between the two virtual machines (VM1 and VM2).
 
@@ -474,7 +431,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/b89bc760-fbdb-4bc1-8913-9015b80c277b"><br>
 
-***
+<br>
+<br>
+<br>
 
 - We can even ping other ip addresses and domain names, such as www.google.com.
 
@@ -485,7 +444,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/71cd1264-b413-49a4-83da-42874fcc5414"><br>
 
-***
+<br>
+<br>
+<br>
 
 - <ins>EXPLANATION</ins>: So next, we will refresh our display in Wireshark by clicking the 'Green Wireshark Icon' in the top left corner of your Wireshark screen under 'Edit'.
 
@@ -501,7 +462,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/16578bd8-fa8b-4675-8fb7-d2f9efe9b815"><br>
 
-***
+<br>
+<br>
+<br>
 
 <ins>EXPLANATION</ins>: Now, as mentioned earlier we will deny all ICMP traffic going to VM2 and observe the changes.
 
@@ -512,14 +475,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/e36dd85a-b229-4b76-a59c-be80642e79ef"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `VM2-nsg`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/a1317929-2ca3-45d6-bd27-8e3699731d18"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Inbound Security Rules`
 
@@ -548,14 +515,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4d686036-5db7-4755-897b-934d342bb311"><br>
 
-***
+<br>
+<br>
+<br>
 
 - As you see, it almost instantly stops all ICMP traffic to VM2.
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/56f671c4-b567-47e7-ac75-51722bd0d7e3"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Once you see the results:
 
@@ -566,7 +537,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f920c09f-500c-47f9-8334-77300842231e"><br>
 
-***
+<br>
+<br>
+<br>
 
 ### 7. ) Observe SSH Traffic
 
