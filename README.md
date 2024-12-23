@@ -665,15 +665,15 @@ Next, we will observe SSH traffic going to VM2.
 
 ### 9. ) Observe DNS Traffic
 
-<ins>EXPLANATION</ins>: DNS stands for Domain Name System. DNS turns domain website names into IP addresses, which allow browsers to get to websites and other internet resources. Web browsers interact through Internet Protocol (IP) addresses, so every device on the internet has an IP address, which other devices can use to locate the device. So, in laymans terms, it turns human language (words) into computer language (numbers), so that it can communicate with other computers and devices on the internet.
+<ins>EXPLANATION</ins>: DNS (Domain Name System) converts domain names into IP addresses, enabling browsers to access websites and internet resources. In simple terms, it translates human-readable names (words) into machine-readable numbers (IP addresses) for communication across the internet.
 
-<ins>So to begin, you can carry out the following</ins>:
+<ins>Observing DNS Traffic in Wireshark</ins>:
 
-- Type in: `dns` into the Wireshark Filter Bar
+- Type: `dns` into the Wireshark Filter Bar
 
-  - You can also use: `udp.port == 53` since DNS uses port 53
+- You can also use: `udp.port == 53` since DNS uses the UDP Protocol and Port 53
 
-  - *As you see, there may be some DNS traffic already within Wireshark. Refresh your Wireshark to start with a clean screen.*
+*There may be some DNS traffic already within Wireshark. Refresh your Wireshark to start off with a clean screen.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/317eeef0-79e9-413b-95cc-37d148e07654"><br>
@@ -682,19 +682,19 @@ Next, we will observe SSH traffic going to VM2.
 <br>
 <br>
 
-The first command we will test out is 'nslookup'; this stands for 'Name Serve Lookup'. This is a network administration command-line tool for querying the Domain Name System (DNS) to obtain the mapping between domain name and IP address, or other DNS records. To rephrase, it lets users enter a host name and find out the corresponding IP address or domain name system (DNS) records (It asks the DNS Server what the IP Address is for any given host name).
+<ins>Observing DNS Traffic in Wireshark</ins>:
 
-- Type in: `nslookup www.disney.com`
+The first command to test is nslookup (Name Server Lookup), a command-line tool for querying DNS. It maps domain names to IP addresses or retrieves other DNS records by asking the DNS server for the IP address of a given host name.
+
+- Type In: `nslookup www.disney.com`
 
 - Press: `Enter`
 
-  - *When you complete this action you will see a bunch of 'source' and 'destination' traffic between your VM and the DNS Server.*
+*After completing this action, you’ll notice lots of traffic flowing between your VM (as the source) and the DNS server (as the destination).*
 
 - The traffic you see in Wireshark are some of the IP Addresses that Disney uses.
 
-- The area in green is the breakdown of the packet that was sent.
-
-<ins>You can now close Powershell for the rest of this lab.</ins>
+- Close: `Powershell` for the rest of this lab
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/c9e7672e-375a-4359-9e26-186e73303d1d"><br>
@@ -705,13 +705,13 @@ The first command we will test out is 'nslookup'; this stands for 'Name Serve Lo
 
 ### 10. ) Observe RDP Traffic
 
-<ins>EXPLANATION</ins>: RDP allows users to execute remote operations on other computers. RDP uses port 3389 It facilitates secure information exchange between remotely connected machines over an encrypted communication channel. This is a secure network communication protocol offered by Microsoft.
+<ins>EXPLANATION</ins>: RDP (Remote Desktop Protocol) lets users perform remote operations on other computers. It uses port 3389 and ensures secure data exchange through an encrypted communication channel. This protocol is provided by Microsoft.
 
-<ins>To view RDP Traffic you will need to</ins>:
+<ins>Observe RDP Traffic in Wireshark</ins>:
 
-- Type in: `tcp.port == 3389` into Wireshark Filter Bar
+- Type: `tcp.port == 3389` into Wireshark Filter Bar (*This is the protocol and port RDP uses*)
 
-  - *Now you can observe the constant stream of live traffic happening from RDP and your VM1.*
+*Now you can observe the constant stream of live traffic happening from RDP and your VM1.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/881b2fbf-a807-4167-9eeb-e7d8beecc38a"><br>
@@ -722,40 +722,34 @@ The first command we will test out is 'nslookup'; this stands for 'Name Serve Lo
 
 ### 11. ) Delete your Rsources
 
-- <ins>Go back into your Azure Portal</ins>:
+<ins>Go back into your Azure Portal</ins>:
 
-  - Go To: `RG-LAB-02`
- 
-  - Select: `Delete resource group`
- 
-  - Copy & Paste: `RG-LAB-02` into the Rectangular box towards the bottom right underneath where it says 'Enter resource group name to confirm deletion'.
+  - Go To: Resource Group: `RG-LAB-02`
 
-  - Check: `The Box` where it says 'Apply force delete for selected Virtual machines and Virtual machine scale sets'.
+  - Select: `Delete resource group` > 
+
+  - Copy & Paste your Resource Group Name: `RG-LAB-02` into the Rectangular box towards the bottom right underneath where it says 'Enter resource group name to confirm deletion'.
+
+  - Check: The `Apply force delete for selected Virtual machines and Virtual machine scale sets' Box
 
   - Click: `Delete`
 
 <p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/7354cf59-43cb-4e92-9f8f-c9ff800a3ef9"><br>
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/5662dc0c-5b67-47da-bbf2-dbd402741cc0"><br>
 
 <br>
 <br>
 <br>
+
+<ins>Delete your Rsources</ins>:
 
 - Delete: `NetworkWatcherRG`
 
-  - *(Perform the same instructions as you did with RG-LAB-02)*
+*Perform the same instructions as you did with RG-LAB-02*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4e0a8677-f71b-4691-9fab-da3465121715"><br>
 
-🎉 Congratulations! Complete this lab as many times as needed to solidify your understanding and create a skill that will pay dividends if you choose to put it to use.
-
-☎️ For any questions, advice (for me or for you), constructive criticism, or just to connect, you can contact me at:
-
-📲 LinkedIn: www.linkedin.com/in/vincentchachere
-
-📬 Email: vincent.chachere@gmail.com
-
-(Please no soliticing, only real connections, please and thank you.😁👍🏾)
-
 </details>
+
+☎️ For any questions or just to connect you can contact me at: www.linkedin.com/in/vincentchachere
