@@ -127,10 +127,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br>
 <br>
 
-<ins>When you're done typing in all the information</ins>:
+<ins>Within your Networking Tab<ins>:
 
-*Take a mental note of the Virtual Network (Vnet) the VM creates.*
-*You will need to know this for when you create VM2 in the next step.*
+*Take a mental note of the Virtual Network (Vnet) the VM creates. You will need to know this for when you create VM2 in the next step.*
 
   - The Virtual Network (Vnet) created for this Virtual Machine is: `VM1-vnet`
 
@@ -168,74 +167,35 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - User: `labuser`
 
 - Password: *`Something You Can Easily Remember`*
-  - *The username and password can be the same as the VM1 login. You can change it if you want, but be sure to remember it.*
+  - *The username and password can be the same as the VM1 login. You can change it if you want, just remember it.*
 
 - Select Inbound Ports: `SSH (22)`
 
-- *<ins>When you're done typing in all the information</ins>:*
-
-  - Go To: `Networking` Tab
-    - Make sure the Virtual Network [VNET] is the same as the one you took a mental note of in step 2 when creating VM1.
+- Go To: `Networking` Tab to verify it's the same Virtual Network (Vnet) as VM1
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/8ebb6247-7180-4317-8c5a-0f16e49a68e2"><br>
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/913067ed-149d-459a-a4b1-033ace987c37"><br>
 
-***
+<br>
+<br>
+<br>
 
-- *<ins>When you confirm the VNET matches the one created when you made VM1</ins>:*
+<ins>When you verify it's the same Virtual Network (Vnet) as VM1</ins>:
 
   - Click: `Review + Create`
+
+  - Click: `Create`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/8908f4bd-35df-492d-9ad2-b2f94e7e925d"><br>
 
-***
+<br>
+<br>
+<br>
 
-- *<ins>Review the information you typed in and once you verify it's all correct</ins>:*
-  - Click: `Create`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/c661b52f-a636-4c7d-8160-52c6f4c5d388"><br>
-
-***
-
-### 4. ) Connect VM1 to RDP
-
-ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS or Windows go to [my lab](https://github.com/vincentchachere/virtual-machine) on how to create a virtual machine on Step 5 for instructions on how to do that.*
-
-- Copy: `VM1's Public Address`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/2e2b2438-0332-42ad-a731-77d8aa2c548c"><br>
-
-***
-
-- Select: `Add PC`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/6b95ec8d-afc4-4365-b799-f4326250fdd5"><br>
-
-***
-
-- Paste: `VM1's Public IP Address`
-
-- Select: `Add`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/fc7c41f6-4158-4865-97bc-5e20626a66f6"><br>
-
-***
-
-- Double-Click: `VM1's Remote Desktop Account` *(The Blue Rectangle)*
-
-- Select: `Connect`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/6c46f335-7a53-47b6-82a5-a4c6b7e8a696"><br>
-
-***
+### 4. ) Remote Desktop (RDP) into VM1
 
 - User: `labuser`
 
@@ -244,16 +204,11 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 - Select: `Continue`
 
 <p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/64e9e366-716c-4076-ae91-40e59fd2cba4"><br>
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/14f05798-5905-4e72-827a-4161e5a7dea7"><br>
 
-***
-
-- Select: `Continue`
-
-<p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/47f34c0c-8497-4e91-b64c-3c90d5bb41de"><br>
-
-***
+<br>
+<br>
+<br>
 
 - Uncheck: `All the Boxes`
 
@@ -262,11 +217,11 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/d9869250-3e6c-4780-83dd-bef4993b40d6"><br>
 
-***
+<br>
+<br>
+<br>
 
-- Now we are inside the Virtual Machine (VM1)!
-
-- Continue to Part 2 of this lab, which is Installing Wireshark inside VM1.
+<ins>Once inside continue to Part 2 of this lab, which is Installing Wireshark inside VM1</ins>
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/a97043cf-1987-417f-bee5-0d8e60653de3"><br>
@@ -290,14 +245,18 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/bc3d9b64-5654-45f5-8628-b9bf21057d01"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Wireshark - Download`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/e05430cd-8144-474b-8eb0-a846b4d2f7cc"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Windows x64 Installer`
 
@@ -308,98 +267,126 @@ ATTENTION: *For how to connect your virtual machine to Remote Desktop on macOS o
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/919ed2df-f201-4819-8c74-7d0fe76cabfa"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Noted`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/75d5f591-7934-463a-9397-94f15523699b"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Next` 
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/d67cc691-58c7-429e-bc94-de709e30681c"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Next`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/9543f800-4e5a-4b76-930d-7e2cad6bb951"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Next`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/218e8cbf-5c72-4eba-be38-f5432849016b"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Next`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/72418587-57de-46b8-b521-08a8f1e86b3f"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Next`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/8e03c913-3f18-41e8-8c58-b5b2a0c6b80b"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Install`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/43a1a6f3-28ca-40b8-b96a-70a116c19641"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `I Agree`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/2480642b-9555-4f9a-8fee-178790f07edd"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Install`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/1c200a7b-e775-4214-909e-2a890ed63eed"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Next`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/cdf73159-75c2-4f7f-bb11-f1637393c804"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Finish`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/a4d81ffc-39be-42f1-897f-57f1836fdc63"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Next`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/10cca54b-98a7-45db-b2be-97f4fed8b99d"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Select: `Finish`
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/d87d5845-d493-48e1-9d86-f4850bc98c95"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Close your Microsoft Web Browser and Search: `Wireshark`
 
