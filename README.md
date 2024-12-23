@@ -549,22 +549,25 @@ Next, we will observe SSH traffic going to VM2.
 
 ### 7. ) Observe SSH Traffic
 
-<ins>EXPLANATION</ins>: Back in Wireshark, filter for SSH (Secure Shell or Secure Socket Shell) traffic only, or since ssh uses port 22 you can also use: `tcp.port == 22` (this is the more direct way to use SSH). SSH is similar to remote desktop, except that it is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network. So, instead of pinging VM2 you will SSH into VM2 from VM1. In other words, connect from VM1 into VM2 via SSH.
+<ins>EXPLANATION</ins>: In Wireshark, filter for SSH traffic by using `tcp.port == 22` (*TCP is the protocol SSH uses and 22 is the port SSH uses*). SSH, unlike Remote Desktop, is a secure network protocol that allows system administrators to access a computer over an unsecured network. Instead of pinging VM2, connect to it from VM1 via SSH.
 
-- Click: `Green Wireshark Icon` in the top left corner of your Wireshark screen under 'Edit'.
+- Click: `Green Wireshark Icon` in the top left corner
 
 - Select: `Continue without saving`
 
-- Type in: `ssh` into the Wireshark Filter Bar
+- Type: `ssh` into the Wireshark Filter Bar
 
 - Press: `Enter`
 
-- Type in: `ssh labuser@10.0.0.5` into Powershell
-  - *As you see, this is your VM2's login username (labuser) and your VM2's Private IP Address being used for this protocol.*
+- Type: `ssh labuser@10.0.0.5` into Powershell
 
-- Press: `Enter` when done doing the above action.
-  - *<ins>It will ask you inside Powershell "Are you sure you want to continue?"</ins>*
-    - Type in: `yes `
+- Press: `Enter`
+
+*Notice your VM2's login username (labuser) and your VM2's Private IP Address being used for this protocol.*
+
+<ins>It will ask you inside Powershell</ins>: "Are you sure you want to continue?"
+    
+    - Type In: `yes `
 
     - Press: `Enter`
  
@@ -579,9 +582,11 @@ Next, we will observe SSH traffic going to VM2.
 ><ins>NOTE</ins>: Notice, everytime you type in a command on Powershell you can see the traffic show up on Wireshark.
 
 <p align="center">
-<img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/0161a9d1-05cb-4d28-90d1-8d272750ae9b"><br>
+<img width="800" alt="isolated" src="https://github.com/user-attachments/assets/e108d78f-e23f-47a4-a1f4-8fd180f6c496"><br>
 
-***
+<br>
+<br>
+<br>
 
 <ins>Now you can test out some commands within the SSH protocol inside Powershell, such as</ins>:
 
@@ -620,7 +625,9 @@ Next, we will observe SSH traffic going to VM2.
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/febe95ba-fd39-4670-b1e1-36f8e130393f"><br>
 
-***
+<br>
+<br>
+<br>
 
 ### 8. ) Observe DHCP Traffic
 
@@ -649,7 +656,9 @@ Next, we will observe SSH traffic going to VM2.
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f47eb165-51f5-485c-a509-619d233299a2"><br>
 
-***
+<br>
+<br>
+<br>
 
 ### 9. ) Observe DNS Traffic
 
@@ -666,7 +675,9 @@ Next, we will observe SSH traffic going to VM2.
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/317eeef0-79e9-413b-95cc-37d148e07654"><br>
 
-***
+<br>
+<br>
+<br>
 
 The first command we will test out is 'nslookup'; this stands for 'Name Serve Lookup'. This is a network administration command-line tool for querying the Domain Name System (DNS) to obtain the mapping between domain name and IP address, or other DNS records. To rephrase, it lets users enter a host name and find out the corresponding IP address or domain name system (DNS) records (It asks the DNS Server what the IP Address is for any given host name).
 
@@ -685,7 +696,9 @@ The first command we will test out is 'nslookup'; this stands for 'Name Serve Lo
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/c9e7672e-375a-4359-9e26-186e73303d1d"><br>
 
-***
+<br>
+<br>
+<br>
 
 ### 10. ) Observe RDP Traffic
 
@@ -700,7 +713,9 @@ The first command we will test out is 'nslookup'; this stands for 'Name Serve Lo
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/881b2fbf-a807-4167-9eeb-e7d8beecc38a"><br>
 
-***
+<br>
+<br>
+<br>
 
 ### 11. ) Delete your Rsources
 
@@ -719,7 +734,9 @@ The first command we will test out is 'nslookup'; this stands for 'Name Serve Lo
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/7354cf59-43cb-4e92-9f8f-c9ff800a3ef9"><br>
 
-***
+<br>
+<br>
+<br>
 
 - Delete: `NetworkWatcherRG`
 
