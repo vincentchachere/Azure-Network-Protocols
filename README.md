@@ -574,11 +574,15 @@ Next, we will observe SSH traffic going to VM2.
 
 <ins>It will ask you inside Powershell</ins>: "Are you sure you want to continue?"
     
-- Type In: `yes `
+  - Type In: `yes `
 
-- Press: `Enter`
+  - Press: `Enter`
 
 *You will be prompted to enter the password created for VM2. Note that the password will not be visible as you type—this is normal.*
+
+  - Insert: `VM2's password` (*If you mess up press backspace/delete a bunch of times*)
+
+  - Press: `Enter`
 
 *Next, we will test out some commands within the SSH protocol inside Powershell.*
 
@@ -589,45 +593,37 @@ Next, we will observe SSH traffic going to VM2.
 <br>
 <br>
 
-<ins>Testing out Commands in PowerShell</ins>:
-
-  - Insert your VM2's password (*If you mess up press backspace/delete a bunch of times*)
-
-  - Press: `Enter`
-
 <ins>Testing out Commands with the SSH protocol inside Powershell</ins>:
 
 - 1st Command: `id`
 
-*This command is often used with other tools, like the net command, to view or modify user or group information.*
-
 - 2nd Command: `uname -a`
 
-*The `uname` command displays system information, such as the kernel version running on the IBM Netezza host.*
-
-*The `uname -a` option prints all system information, including kernel name, hostname, kernel release, kernel version, hardware name, platform, and operating system.*
-
-<ins>You can also test a few Linux commands within the SSH protocol inside Powershell, such as</ins>:
+<ins>You can test Linux commands using the SSH protocol directly in PowerShell, such as</ins>:
 
 - 3rd Linux Command: `pwd`
 
-*The `pwd` command (Print Working Directory) outputs the full path of the current working directory.*
-
 - 4th Linux Command: `ls`
-
-*The `ls` command (List) displays files and directories in Unix and Unix-like systems.*
 
 - 5th Linux Command: `touch`
 
+<ins>You can logout/exit the SSH protocol inside Powershell by</ins>:
+
+- Typing In: `exit` then..
+ 
+- Press: `Enter`
+
+*Notice that each time you enter a command in PowerShell, traffic appears in Wireshark.*
+
+*The `id` command is often used with other tools, like the net command, to view or modify user or group information.*
+
+*The `uname` command displays system information, such as the kernel version running on the IBM Netezza host.The `uname -a` option prints all system information, including kernel name, hostname, kernel release, kernel version, hardware name, platform, and operating system.*
+
+*The `pwd` command (Print Working Directory) outputs the full path of the current working directory.*
+
+*The `ls` command (List) displays files and directories in Unix and Unix-like systems.*
+
 *The `touch` command updates the access and/or modification date of a file or directory.*
-
-- You can logout/exit the SSH protocol inside Powershell by:
-
-  - Typing In: `exit` then..
- 
-  - Press: `Enter`
- 
-*Notice, everytime you typed in a command on Powershell you seen traffic populate within Wireshark.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/6a5b46ec-ca9f-4148-aa89-4e94e570d7d4"><br>
