@@ -580,53 +580,54 @@ Next, we will observe SSH traffic going to VM2.
 
 *You will be prompted to enter the password created for VM2. Note that the password will not be visible as you type—this is normal.*
 
-*Next, test out some commands within the SSH protocol inside Powershell*
+*Next, we will test out some commands within the SSH protocol inside Powershell.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/23a14ad1-de46-45f9-9e6a-62015a50eabf">
 
-  - *<ins>Just insert your VM2's password as normal and</ins>*:
+<br>
+<br>
+<br>
 
-    - Press: `Enter`
+<ins>Testing out Commands in PowerShell</ins>:
 
-    - *(If you mess up just press the backspace/delete a bunch of times)*
+  - Insert your VM2's password (*If you mess up press backspace/delete a bunch of times*)
 
-><ins>NOTE</ins>: Notice, everytime you type in a command on Powershell you can see the traffic show up on Wireshark.
+  - Press: `Enter`
 
-
-<ins>Now you can test out some commands within the SSH protocol inside Powershell, such as</ins>:
+<ins>Testing out Commands with the SSH protocol inside Powershell</ins>:
 
 - 1st Command: `id`
 
-  - *This command is typically used in conjunction with other command-line tools, such as the net command, to display or modify user or group information.*
+*This command is often used with other tools, like the net command, to view or modify user or group information.*
 
 - 2nd Command: `uname -a`
 
-  - *The `uname` command is used to learn the kernel version that the IBM Netezza host is running, which displays system information.*
+*The `uname` command displays system information, such as the kernel version running on the IBM Netezza host.*
 
-  - *The `-a` option in `uname` command in Linux prints all the system information in the following order: Kernel name, network node hostname, kernel release date, kernel version, machine hardware name, hardware platform, operating system.*
+*The `uname -a` option prints all system information, including kernel name, hostname, kernel release, kernel version, hardware name, platform, and operating system.*
 
-<ins>You can also try out a few Linux commands within the SSH protocol inside Powershell, such as</ins>:
+<ins>You can also test a few Linux commands within the SSH protocol inside Powershell, such as</ins>:
 
 - 3rd Linux Command: `pwd`
 
-  - *This stands for `Print Working Directory`, this command writes the full pathname of the current working directory to the standard output.*
+*The `pwd` command (Print Working Directory) outputs the full path of the current working directory.*
 
 - 4th Linux Command: `ls`
 
-  - *This stands for `List`, this is a command that lists computer files and directories in Unix and Unix-like operating systems.*
+*The `ls` command (List) displays files and directories in Unix and Unix-like systems.*
 
 - 5th Linux Command: `touch`
 
-  - *This command is used to update the access date and/or modification date of a computer file or directory.*
+*The `touch` command updates the access and/or modification date of a file or directory.*
 
-- You can Exit the SSH protocol inside Powershell by:
+- You can logout/exit the SSH protocol inside Powershell by:
 
-  - Typing in: `exit`
+  - Typing In: `exit` then..
  
   - Press: `Enter`
  
-><ins>NOTE</ins>: Notice, everytime you typed in a command on Powershell you seen traffic populate within Wireshark.
+*Notice, everytime you typed in a command on Powershell you seen traffic populate within Wireshark.*
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/6a5b46ec-ca9f-4148-aa89-4e94e570d7d4"><br>
