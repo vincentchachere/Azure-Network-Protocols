@@ -3,7 +3,7 @@
 In this lab, we will explore Network Security Groups (NSGs) and inspect network traffic between Azure Virtual Machines using Wireshark. We will analyze various network protocols, including ICMP, SSH, DHCP, DNS, and RDP, and use command-line tools to observe how these protocols facilitate communication between devices.
 
 <p align="center">
-<img width="1000" alt="isolated" src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+<img width="1000" alt="isolated" src="https://github.com/user-attachments/assets/81f9d94c-a3e4-4a9f-b812-8c425f5ef005" alt="Traffic Examination"/>
 </p>
 
 ## Environments and Technologies Used
@@ -753,4 +753,12 @@ The first command to test is nslookup (Name Server Lookup), a command-line tool 
 
 </details>
 
-☎️ For any questions or just to connect you can contact me at: www.linkedin.com/in/vincentchachere
+<h2 align="center">Final Thoughts</h2>
+
+This lab provided hands-on experience with Azure Network Security Groups (NSGs) and network traffic analysis between virtual machines. By leveraging tools like Wireshark and command-line utilities, we explored key network protocols—ICMP, SSH, DHCP, DNS, and RDP—and gained insights into how these protocols facilitate communication. The practical exercises reinforced an understanding of traffic flow, security rules, and the critical role NSGs play in managing access and protecting resources within Azure environments.
+
+For more on network management and security, explore the first lab in my detailed [Active Directory tutorial series](https://github.com/vincentchachere/Active-Directory-and-Azure-Setup).
+
+Thank you for following along with this project. Your time and effort in learning and implementing these concepts are greatly appreciated.
+
+☎️ For questions or to connect you can contact me at: www.linkedin.com/in/vincentchachere
