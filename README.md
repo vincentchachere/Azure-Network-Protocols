@@ -1,6 +1,6 @@
 # Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines
 
-In this lab, we will explore Network Security Groups (NSGs) and inspect network traffic between Azure Virtual Machines using Wireshark. We will analyze various network protocols, including ICMP, SSH, DHCP, DNS, and RDP, and use command-line tools to observe how these protocols facilitate communication between devices.
+In this lab, we will explore Network Security Groups (NSGs) and inspect network traffic between Azure virtual machines using Wireshark. We will analyze various network protocols, including ICMP, SSH, DHCP, DNS, and RDP, and use command-line tools to observe how these protocols facilitate communication between devices.
 
 <p align="center">
 <img width="1000" alt="isolated" src="https://github.com/user-attachments/assets/81f9d94c-a3e4-4a9f-b812-8c425f5ef005" alt="Traffic Examination"/>
