@@ -366,7 +366,15 @@ In this lab, we will explore Network Security Groups (NSGs) and inspect network 
 
 </summary>
 
-### 6. ) First we will Observe and Filter by ICMP Traffic Only
+<details>
+
+<summary>
+
+### 6. ) Observe ICMP Traffic
+
+</summary>
+
+<ins>First, we'll observe and filter by ICMP traffic only.</ins>
 
 <ins>EXPLANATION</ins>: ICMP (Internet Control Message Protocol) is used for reporting network errors and diagnostics. It enables the ping command, where an echo request is sent to a target host, which replies with an echo reply. ICMP messages notify the sender of issues like undelivered data or unreachable hosts.
 
@@ -544,11 +552,15 @@ Next, we will observe SSH traffic going to VM2.
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f920c09f-500c-47f9-8334-77300842231e"><br>
 
-<br>
-<br>
-<br>
+</details>
+
+<details>
+
+<summary>
 
 ### 7. ) Observe SSH Traffic
+
+</summary>
 
 <ins>EXPLANATION</ins>: In Wireshark, filter for SSH traffic by using `tcp.port == 22` (*TCP is the protocol SSH uses and 22 is the port SSH uses*). SSH, unlike Remote Desktop, is a secure network protocol that allows system administrators to access a computer over an unsecured network. Instead of pinging VM2, connect to it from VM1 via SSH.
 
@@ -629,11 +641,15 @@ Next, we will observe SSH traffic going to VM2.
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/user-attachments/assets/6a5b46ec-ca9f-4148-aa89-4e94e570d7d4"><br>
 
-<br>
-<br>
-<br>
+</details>
+
+<details>
+
+<summary>
 
 ### 8. ) Observe DHCP Traffic
+
+</summary>
 
 <ins>EXPLANATION</ins>: DHCP (Dynamic Host Configuration Protocol) uses UDP port 67 (server) and UDP port 68 (client). It has two versions, DHCPv4 and DHCPv6, for IPv4 and IPv6, respectively, which are distinct protocols with separate ports. DHCP dynamically assigns IP addresses and network configurations to devices, enabling communication across IP networks. In Azure, an invisible DHCP server handles this process, reissuing IP addresses. This activity can be observed in Wireshark.
 
@@ -660,11 +676,15 @@ Next, we will observe SSH traffic going to VM2.
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/f47eb165-51f5-485c-a509-619d233299a2"><br>
 
-<br>
-<br>
-<br>
+</details>
+
+<details>
+
+<summary>
 
 ### 9. ) Observe DNS Traffic
+
+</summary>
 
 <ins>EXPLANATION</ins>: DNS (Domain Name System) converts domain names into IP addresses, enabling browsers to access websites and internet resources. In simple terms, it translates human-readable names (words) into machine-readable numbers (IP addresses) for communication across the internet.
 
@@ -700,11 +720,15 @@ The first command to test is nslookup (Name Server Lookup), a command-line tool 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/c9e7672e-375a-4359-9e26-186e73303d1d"><br>
 
-<br>
-<br>
-<br>
+</details>
+
+<details>
+
+<summary>
 
 ### 10. ) Observe RDP Traffic
+
+</summary>
 
 <ins>EXPLANATION</ins>: RDP (Remote Desktop Protocol) lets users perform remote operations on other computers. It uses port 3389 and ensures secure data exchange through an encrypted communication channel. This protocol is provided by Microsoft.
 
@@ -717,11 +741,15 @@ The first command to test is nslookup (Name Server Lookup), a command-line tool 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/881b2fbf-a807-4167-9eeb-e7d8beecc38a"><br>
 
-<br>
-<br>
-<br>
+</details>
 
-### 11. ) Delete your Rsources
+<details>
+
+<summary>
+
+### 11. ) Delete your Resources
+
+</summary>
 
 <ins>Go back into your Azure Portal</ins>:
 
@@ -750,6 +778,9 @@ The first command to test is nslookup (Name Server Lookup), a command-line tool 
 
 <p align="center">
 <img width="800" alt="isolated" src="https://github.com/vincentchachere/azure-network-protocols/assets/161680745/4e0a8677-f71b-4691-9fab-da3465121715"><br>
+</p>
+
+</details>
 
 </details>
 
