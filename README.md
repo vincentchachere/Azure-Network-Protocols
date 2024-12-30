@@ -13,6 +13,7 @@ In this lab, we will explore network security groups (NSGs) and inspect network 
 - Various Command-Line Tools
 - Various Network Protocols (SSH, RDP, DNS, HTTP/S, ICMP)
 - Wireshark (Protocol Analyzer)
+- PowerShell
 
 ## Operating Systems Used
 
